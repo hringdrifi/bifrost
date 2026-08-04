@@ -1,0 +1,174 @@
+(footprint "Plate_Smidr_Key_Hole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Smidr keyboard plate key hole, center-origin template")
+	(tags "Smidr keyboard plate key hole center origin")
+	(property "Reference" "REF**"
+		(at 0 -11.025 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0cd9d242-774e-470f-bf2b-3b0f50d21960")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Plate_Smidr_Key_Hole"
+		(at 0 11.025 0)
+		(layer "F.Fab")
+		(uuid "23d0cf78-2976-43c8-b8a6-f1af326a9988")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe3f0425-7742-4125-b34c-8e84df5a52e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13d251de-05a7-4ca1-802c-104e3ec4c8ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -9.525 -9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "64045916-a42d-4d91-9138-6a7f0db8afc5")
+	)
+	(fp_line
+		(start -7.05 6.550003)
+		(end -7.05 -6.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "870ceb9e-7887-424e-b32a-93524945ea51")
+	)
+	(fp_line
+		(start -6.55 -7.05)
+		(end 6.55 -7.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0f8f1db0-d881-46bc-abb3-0a49392a37a3")
+	)
+	(fp_line
+		(start 6.55 7.05)
+		(end -6.55 7.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2220241c-d345-4aaf-ad17-1f7010c545bd")
+	)
+	(fp_line
+		(start 7.05 -6.55)
+		(end 7.05 6.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a7132336-291e-4250-9593-ff842e97af4c")
+	)
+	(fp_arc
+		(start -7.05 -6.55)
+		(mid -6.903553 -6.903553)
+		(end -6.55 -7.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a1203574-75f5-4653-a58b-3a64c8f28afd")
+	)
+	(fp_arc
+		(start -6.55 7.05)
+		(mid -6.903552 6.903554)
+		(end -7.05 6.550003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "13facbdb-4379-4b13-a179-1c20dc387a88")
+	)
+	(fp_arc
+		(start 6.55 -7.05)
+		(mid 6.903552 -6.903554)
+		(end 7.05 -6.550003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "92468c72-0336-4eac-89ff-314a126ebcf2")
+	)
+	(fp_arc
+		(start 7.05 6.55)
+		(mid 6.903554 6.903552)
+		(end 6.550003 7.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3d5ea55e-f095-435a-8b20-39ed6de4dda5")
+	)
+	(fp_rect
+		(start -9.525 -9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "24923a09-989f-41d0-8965-899112e88a6d")
+	)
+	(fp_rect
+		(start -9.525 -9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dcff28df-ea58-4920-8ef3-6fa7850d3686")
+	)
+	(embedded_fonts no)
+)

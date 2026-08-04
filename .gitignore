@@ -1,0 +1,19 @@
+# KiCad local state and automatic backups
+*.kicad_prl
+*-backups/
+*.bak
+
+# Generated PCB exports, 3D models, and reference images
+/pcb/**/*.step
+/pcb/**/*.stp
+/pcb/**/*.png
+/pcb/**/*.jpg
+/pcb/**/*.jpeg
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Local Codex and agent workspace state
+.codex/
+.agents/

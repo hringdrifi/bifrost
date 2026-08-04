@@ -1,0 +1,225 @@
+(footprint "LED_Smidr_RGB_1209"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN")
+	(tags "LED 3227")
+	(property "Reference" "REF**"
+		(at 0 -2.75 0)
+		(layer "F.SilkS")
+		(uuid "44186615-49fb-467c-be4f-ee4194788589")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "E6C1209RGBC3UDA"
+		(at 0 2.9 0)
+		(layer "F.Fab")
+		(uuid "e9f0cf8b-ad3a-4ec1-be21-88ebe6991edf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e29656e-02a9-469b-a0ee-0718151c0073")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2514c14-f117-4357-b1ac-a6a3f073d760")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.5 -0.5)
+		(end -2.5 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a74ba2e1-83c6-4bf7-a26d-bbc956d7c22b")
+	)
+	(fp_line
+		(start 2.5 -1.95)
+		(end -2.5 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53828158-39c1-4a5b-8ce5-9b9ba3459807")
+	)
+	(fp_line
+		(start 2.5 1.95)
+		(end -2.5 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13686e16-092b-425f-aa91-71e167fa4116")
+	)
+	(fp_line
+		(start -2.95 -1.65)
+		(end -2.95 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3722ad88-23a8-4c15-a873-676eb9075f00")
+	)
+	(fp_line
+		(start -2.95 1.65)
+		(end 2.85 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c95d520c-44ba-4e3a-b0ac-28e9c007b8ab")
+	)
+	(fp_line
+		(start 2.85 -1.65)
+		(end -2.95 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "641edb38-5ce6-47e4-84bd-542cf78813f8")
+	)
+	(fp_line
+		(start 2.85 1.65)
+		(end 2.85 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bce883f4-6b52-45f8-a874-39c2e193b8c6")
+	)
+	(fp_line
+		(start -1.6 -0.675)
+		(end -0.925 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5fae5d6-fee3-44f7-be24-946d8af073f3")
+	)
+	(fp_line
+		(start -1.6 1.35)
+		(end -1.6 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ec0ffcd-f6ec-4bca-93fc-3e03b094b826")
+	)
+	(fp_line
+		(start -0.925 -1.35)
+		(end 1.6 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b1834a4-87eb-4050-a185-2af49c18b79f")
+	)
+	(fp_line
+		(start 1.6 -1.35)
+		(end 1.6 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac1d59dc-d8e3-4f09-bcb8-7ddddd6e49ec")
+	)
+	(fp_line
+		(start 1.6 1.35)
+		(end -1.6 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1aaf0637-56e3-4b35-bdd9-56de7d2124f3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.75 0)
+		(layer "F.Fab")
+		(uuid "62f6829a-a5bf-4e77-9084-5f9b3d50e812")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.3 -0.95 180)
+		(size 1.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74c914ab-8740-4708-aa1c-b3518c9254ed")
+	)
+	(pad "2" smd rect
+		(at 1.3 -0.95 180)
+		(size 1.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fc19980e-42e3-41ac-a14e-063789d95cc3")
+	)
+	(pad "3" smd rect
+		(at -1.3 0.95 180)
+		(size 1.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ab3ac800-e1de-4449-a996-f80b79093f46")
+	)
+	(pad "4" smd rect
+		(at 1.3 0.95 180)
+		(size 1.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "24b5118c-318c-4d64-a1c2-20baa12a0cd3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_1210.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
