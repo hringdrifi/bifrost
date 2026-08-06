@@ -25,6 +25,23 @@ The case and four switch plates are provided as STEP files in [`case/`](../case/
 | Round female-to-female spacer | M2 × 5 mm | 8 | [Hirosugi](https://hirosugi.co.jp/) ([web shop](https://www.hirosugi-net.co.jp/)) or [Wilco](https://wilco.jp/) | `ARB-2005E` |
 | Nut | M2 | 2 | [Wilco](https://wilco.jp/) | `FNT-02N` |
 | Thin nut | M1.4 | 3 | [Wilco](https://wilco.jp/) | `UNTD-014` |
+| Bumpon / rubber foot | 3M `SJ5302` | 8 | TBD | — |
+
+## Case fabrication
+
+Manufacture the following parts by **SLA resin 3D printing**:
+
+| Part | File | Qty. per keyboard |
+| --- | --- | ---: |
+| Left-hand case | `bifrost_left_case.step` | 1 |
+| Right-hand case | `bifrost_right_case.step` | 1 |
+| Trackball case | `bifrost_trackball_case.step` | 1 |
+
+- Recommended manufacturer: [JLC3DP](https://jlc3dp.com/)
+- Manufacturing process: SLA resin
+- Resin type, colour, and surface finish: **at the builder's discretion**
+- Post-processing: **not required**
+- Rubber feet: apply eight 3M `SJ5302` bump-ons during final assembly.
 
 ## PCB fabrication
 
@@ -71,7 +88,6 @@ When ordering an aluminium-core PCB and using the aluminium face as the top surf
 
 ## Still to be specified
 
-- Case fabrication process, material, finish, and fastener placement
 - PCB order specifications listed above
 - PCB BOM and component sourcing links
 - Manufacturing exports and revision identifiers

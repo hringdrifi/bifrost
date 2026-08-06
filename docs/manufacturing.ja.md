@@ -25,6 +25,23 @@
 | 丸型両雌ねじスペーサー | M2 × 5 mm | 8 本 | [ヒロスギ](https://hirosugi.co.jp/)（[Web ショップ](https://www.hirosugi-net.co.jp/)）または [Wilco](https://wilco.jp/) | `ARB-2005E` |
 | ナット | M2 | 2 個 | [Wilco](https://wilco.jp/) | `FNT-02N` |
 | 薄ナット | M1.4 | 3 個 | [Wilco](https://wilco.jp/) | `UNTD-014` |
+| ゴム足 | 3M `SJ5302` | 8 個 | TBD | — |
+
+## ケース製造
+
+次の部品を **SLA レジン 3D プリント**で製造します。
+
+| 部品 | ファイル | 1 台あたり |
+| --- | --- | ---: |
+| 左ケース | `bifrost_left_case.step` | 1 個 |
+| 右ケース | `bifrost_right_case.step` | 1 個 |
+| トラックボールケース | `bifrost_trackball_case.step` | 1 個 |
+
+- 推奨製造先: [JLC3DP](https://jlc3dp.com/)
+- 製法: SLA レジン
+- レジンの種類・色・表面仕上げ: **製作者が任意に選択**
+- 後加工: **不要**
+- ゴム足: 最終組み立て時に 3M `SJ5302` を 8 個取り付けます。
 
 ## PCB 製造
 
@@ -69,7 +86,6 @@
 
 ## 今後追記する内容
 
-- ケースの製法・素材・仕上げ・締結位置
 - PCB の詳細な注文条件
 - PCB BOM と部品購入リンク
 - 製造データとリビジョン番号
