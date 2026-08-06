@@ -22,7 +22,7 @@
 | --- | --- | ---: | --- | --- |
 | トラスねじ | M2 × 4 mm | 22 本 | [Wilco](https://wilco.jp/) | `FT-0204EB` |
 | ねじ | M1.4 × 5 mm | 3 本 | [Wilco](https://wilco.jp/) | `F-1450N-01` |
-| 丸型両雌ねじスペーサー | M2 × 5 mm | 8 本 | [ヒロスギ](https://www.hirosugi.jp/) または [Wilco](https://wilco.jp/) | `ARB-2005E` |
+| 丸型両雌ねじスペーサー | M2 × 5 mm | 8 本 | [ヒロスギ](https://hirosugi.co.jp/)（[Web ショップ](https://www.hirosugi-net.co.jp/)）または [Wilco](https://wilco.jp/) | `ARB-2005E` |
 | ナット | M2 | 2 個 | [Wilco](https://wilco.jp/) | `FNT-02N` |
 | 薄ナット | M1.4 | 3 個 | [Wilco](https://wilco.jp/) | `UNTD-014` |
 

@@ -22,7 +22,7 @@ The case and four switch plates are provided as STEP files in [`case/`](../case/
 | --- | --- | ---: | --- | --- |
 | Truss-head screw | M2 × 4 mm | 22 | [Wilco](https://wilco.jp/) | `FT-0204EB` |
 | Screw | M1.4 × 5 mm | 3 | [Wilco](https://wilco.jp/) | `F-1450N-01` |
-| Round female-to-female spacer | M2 × 5 mm | 8 | [Hirosugi](https://www.hirosugi.jp/) or [Wilco](https://wilco.jp/) | `ARB-2005E` |
+| Round female-to-female spacer | M2 × 5 mm | 8 | [Hirosugi](https://hirosugi.co.jp/) ([web shop](https://www.hirosugi-net.co.jp/)) or [Wilco](https://wilco.jp/) | `ARB-2005E` |
 | Nut | M2 | 2 | [Wilco](https://wilco.jp/) | `FNT-02N` |
 | Thin nut | M1.4 | 3 | [Wilco](https://wilco.jp/) | `UNTD-014` |
 
