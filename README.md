@@ -13,7 +13,8 @@ The case CAD files and PCB design files are published here. Firmware will be rel
 ## Available files
 
 - [`case/`](case/README.md) — STEP files for the cases and switch plates
-- [`pcb/`](pcb/) — KiCad PCB design files for the left and right halves
+- [`pcb/`](pcb/) — KiCad sources for the five PCBs
+- [`docs/manufacturing.md`](docs/manufacturing.md) — manufacturing reference ([日本語](docs/manufacturing.ja.md))
 
 ## License
 
