@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.65,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.25,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -76,7 +76,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|-104770018|20031272|0aaa8316-da52-4f86-a1c6-e8f2a840335e|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          ""
+        ],
+        [
+          "clearance|-105933752|42264245|3e2aac5e-3f22-4f46-ae60-c6d542efc456|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          ""
+        ],
+        [
+          "clearance|-116211593|50542626|8a4a093e-cddb-46d3-8a1b-cc3e9f979e6c|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          ""
+        ],
+        [
+          "clearance|-51386552|10630425|643ec140-5db0-446d-86f1-58435e0c8101|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          ""
+        ],
+        [
+          "clearance|-69749515|12417454|f4dfd49b-9ddf-4be2-9477-f981504f5e64|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          ""
+        ],
+        [
+          "clearance|-72030231|33757913|206edcd0-e9e2-4826-bea1-ac49b9308a2c|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          ""
+        ],
+        [
+          "clearance|-87937958|15672773|94074797-7bf0-4858-98bb-858e8e25e9ce|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          ""
+        ],
+        [
+          "clearance|-95824032|39259100|52e9ad65-0972-488d-8f47-608c235ce4ad|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          ""
+        ],
+        [
+          "npth_inside_courtyard|-28575000|0|9b7e303b-d45e-6db5-b0cb-219685ab8433|9f40fe91-73f6-49bd-a17d-e06787b5e56e",
+          ""
+        ],
+        [
+          "unconnected_items|-17111250|-2823125|F.Cu|4|7b84600b-b314-42bf-ad72-ab2cc91baf58|1d367a75-e0bd-4853-8bb8-5b93e7c0e9d9",
+          ""
+        ],
+        [
+          "unconnected_items|-18181250|-2323125|F.Cu|4|a0c8c466-2dcb-4222-96cd-6fdfed8f7bfc|1671ae7c-53fb-4a29-b921-83a76b8164aa",
+          ""
+        ],
+        [
+          "unconnected_items|-25751250|-2823125|F.Cu|4|b6bd617b-f388-4463-a8bd-f6687f5324d0|0751c7cf-ec5d-4192-90d3-88a4386fbcdc",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -84,7 +133,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -107,7 +156,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -125,7 +174,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -540,54 +589,69 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.25
+      },
+      {
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.5
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -617,7 +681,7 @@
         "pattern": "USB_D*"
       },
       {
-        "netclass": "VBUS",
+        "netclass": "Default",
         "pattern": "Earth"
       },
       {
@@ -638,7 +702,19 @@
       },
       {
         "netclass": "VBUS",
-        "pattern": "PGB_PWR"
+        "pattern": "RGB_PWR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "Net-(F1-Pad1)"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "Net-(C10-Pad1)"
       }
     ]
   },
