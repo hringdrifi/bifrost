@@ -10,6 +10,10 @@
 /pcb/**/*.jpg
 /pcb/**/*.jpeg
 
+# Keep source component models under version control; only exported board models stay ignored.
+!/pcb/**/3dmodels/*.step
+!/pcb/**/3dmodels/*.stp
+
 # OS metadata
 .DS_Store
 Thumbs.db
