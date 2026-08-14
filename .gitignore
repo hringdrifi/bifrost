@@ -1,5 +1,6 @@
 # KiCad local state and automatic backups
 *.kicad_prl
+*.round-tracks-config
 *-backups/
 *.bak
 
