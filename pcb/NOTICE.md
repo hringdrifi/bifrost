@@ -1,4 +1,4 @@
-# Bifröst PCB notices
+# Bifrǫst PCB notices
 
 Copyright (c) 2026 hringdrifi
 

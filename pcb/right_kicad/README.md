@@ -1,6 +1,6 @@
-# Bifröst right KiCad design
+# Bifrǫst right KiCad design
 
-KiCad source files for the right half of Bifröst.
+KiCad source files for the right half of Bifrǫst.
 
 ## Status
 

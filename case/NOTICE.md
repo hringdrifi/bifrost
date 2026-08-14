@@ -1,4 +1,4 @@
-# Bifröst case notices
+# Bifrǫst case notices
 
 Copyright (c) 2026 hringdrifi
 

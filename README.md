@@ -1,8 +1,8 @@
-# Bifröst
+# Bifrǫst
 
-Bifröst is a split-keyboard design project by [hringdrifi](https://github.com/hringdrifi).
+Bifrǫst is a split-keyboard design project by [hringdrifi](https://github.com/hringdrifi).
 
-![Bifröst split keyboard render](assets/bifrost-render.png)
+![Bifrǫst split keyboard render](assets/bifrost-render.png)
 
 ## Project status
 

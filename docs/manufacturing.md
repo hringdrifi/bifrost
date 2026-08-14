@@ -1,6 +1,6 @@
 # Manufacturing reference
 
-This document is a work in progress for manufacturing Bifröst. It covers procurement and fabrication requirements; assembly instructions will be published separately in a build guide.
+This document is a work in progress for manufacturing Bifrǫst. It covers procurement and fabrication requirements; assembly instructions will be published separately in a build guide.
 
 > Availability, lead time, specifications, and ordering conditions at linked suppliers may change. Verify the current product page and specification before ordering. Prices are intentionally not listed here.
 

@@ -1,6 +1,6 @@
-# Bifröst case
+# Bifrǫst case
 
-3D CAD files for the Bifröst split-keyboard case. All files are in STEP (ISO 10303-214) format and can be viewed, modified, and manufactured with compatible CAD/CAM software.
+3D CAD files for the Bifrǫst split-keyboard case. All files are in STEP (ISO 10303-214) format and can be viewed, modified, and manufactured with compatible CAD/CAM software.
 
 ## Files
 
