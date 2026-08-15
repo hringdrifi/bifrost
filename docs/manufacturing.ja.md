@@ -16,7 +16,7 @@
 
 ケースおよび 4 種類のプレートは [`case/`](../case/) に、基板設計データは [`pcb/`](../pcb/) にあります。
 
-## 締結部品
+## 部品
 
 | 部品 | 仕様 | 1 台あたり | 推奨購入先 | 型番 |
 | --- | --- | ---: | --- | --- |
@@ -26,6 +26,10 @@
 | ナット | M2 | 2 個 | [Wilco](https://wilco.jp/) | `FNT-02N` |
 | 薄ナット | M1.4 | 3 個 | [Wilco](https://wilco.jp/) | `UNTD-014` |
 | ゴム足 | φ7.9 × H2.2 mm | 8 個 | TBD | `SJ5302` |
+| スイッチ | Gateron Low Profile ホットスワップ | 49 個 | TBD | `KS-27 Gateron Low Profile` または `KS-33 Gateron Low Profile 2.0` |
+| スタビライザー | Gateron Low Profile、プレートマウント | 2 個 | TBD | `KS-57 Gateron Low Profile Plate Mounted Stabilizer` |
+| トラックボール球 | 25 mm | 1 個 | TBD | — |
+| トラックボール用ベアリング | 内径1.5 × 外径4 × 幅2 mm | 3 個 | TBD | ミネベア `DDL-415ZZ` |
 
 ## ケース製造
 

@@ -16,7 +16,7 @@ One keyboard requires five PCB designs:
 
 The case and four switch plates are provided as STEP files in [`case/`](../case/). The PCB design sources are in [`pcb/`](../pcb/).
 
-## Hardware
+## Parts
 
 | Part | Specification | Qty. per keyboard | Recommended supplier | Part number |
 | --- | --- | ---: | --- | --- |
@@ -26,6 +26,10 @@ The case and four switch plates are provided as STEP files in [`case/`](../case/
 | Nut | M2 | 2 | [Wilco](https://wilco.jp/) | `FNT-02N` |
 | Thin nut | M1.4 | 3 | [Wilco](https://wilco.jp/) | `UNTD-014` |
 | Bumpon / rubber foot | Ø7.9 × H2.2 mm | 8 | TBD | `SJ5302` |
+| Switch | Gateron Low Profile hotswap | 49 | TBD | `KS-27 Gateron Low Profile` or `KS-33 Gateron Low Profile 2.0` |
+| Stabilizer | Gateron Low Profile, plate-mounted | 2 | TBD | `KS-57 Gateron Low Profile Plate Mounted Stabilizer` |
+| Trackball ball | 25 mm | 1 | TBD | — |
+| Trackball bearing | ID1.5 × OD4 × W2 mm | 3 | TBD | Minebea `DDL-415ZZ` |
 
 ## Case fabrication
 
