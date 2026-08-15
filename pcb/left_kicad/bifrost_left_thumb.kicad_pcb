@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.2)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -43,7 +43,7 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
-				(thickness 1.51)
+				(thickness 1.11)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -81,6 +81,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(grid_origin 138.90625 99.21875)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -754,7 +755,7 @@
 			(uuid "f3a43a6b-9a8b-4cdd-8f6e-63690328e282")
 		)
 		(fp_line
-			(start -1.3 -1.150002)
+			(start -1.3 -1.150003)
 			(end 1.6 -1.15)
 			(stroke
 				(width 0.12)
@@ -764,7 +765,7 @@
 			(uuid "a70ab4d6-d2c2-45c0-946d-3281a839ecd9")
 		)
 		(fp_line
-			(start -1.3 -1.150002)
+			(start -1.3 -1.150003)
 			(end -1.6 -0.85)
 			(stroke
 				(width 0.12)
@@ -1531,7 +1532,7 @@
 			(uuid "73ce3e16-4e6b-709c-16bb-6bf69e6ece53")
 		)
 		(fp_line
-			(start 1.650001 -7.791025)
+			(start 1.650002 -7.791025)
 			(end 3.004645 -7.008922)
 			(stroke
 				(width 0.15)
@@ -1615,7 +1616,7 @@
 		(fp_arc
 			(start 1.15 -7.924999)
 			(mid 1.408818 -7.890924)
-			(end 1.650001 -7.791025)
+			(end 1.650002 -7.791025)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2438,7 +2439,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy 0.5 0.25) (xy -0.5 0.25) (xy -0.5 -0.25) (xy 0.5 -0.25)
+				(xy 0.5 0.25) (xy -0.499999 0.25) (xy -0.5 -0.25) (xy 0.499999 -0.25)
 			)
 			(stroke
 				(width 0.1)

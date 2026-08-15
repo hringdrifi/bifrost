@@ -25,7 +25,7 @@ The case and four switch plates are provided as STEP files in [`case/`](../case/
 | Round female-to-female spacer | M2 × 5 mm | 8 | [Hirosugi](https://hirosugi.co.jp/) ([web shop](https://www.hirosugi-net.co.jp/)) or [Wilco](https://wilco.jp/) | `ARB-2005E` |
 | Nut | M2 | 2 | [Wilco](https://wilco.jp/) | `FNT-02N` |
 | Thin nut | M1.4 | 3 | [Wilco](https://wilco.jp/) | `UNTD-014` |
-| Bumpon / rubber foot | 3M `SJ5302` | 8 | TBD | — |
+| Bumpon / rubber foot | Ø7.9 × H2.2 mm | 8 | TBD | `SJ5302` |
 
 ## Case fabrication
 
@@ -46,8 +46,15 @@ Manufacture the following parts by **SLA resin 3D printing**:
 ## PCB fabrication
 
 - Recommended manufacturer: [JLCPCB](https://jlcpcb.com/)
-- Board thickness: **1.2 mm**
 - Required design count: **5 distinct PCBs** per keyboard
+
+| PCB | Board thickness |
+| --- | ---: |
+| Left main PCB | **1.2 mm** |
+| Right main PCB | **1.2 mm** |
+| Left thumb-cluster PCB | **1.2 mm** |
+| Right thumb-cluster PCB | **1.2 mm** |
+| Trackball PCB | **1.6 mm** |
 
 ### Order specification — to be confirmed
 
@@ -56,9 +63,9 @@ Fill in the following before placing an order:
 | Item | Requirement |
 | --- | --- |
 | Quantity per design | TBD |
-| Layer count | TBD |
-| Copper weight | TBD |
-| Solder mask colour | TBD |
+| Layer count | 2 |
+| Copper weight | 1 oz (35 µm) — verify for the trackball PCB |
+| Solder mask colour | Builder's choice |
 | Surface finish | TBD |
 | Edge / panel requirements | TBD |
 | Electrical test | TBD |
