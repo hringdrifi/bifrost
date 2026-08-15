@@ -22,10 +22,10 @@
 | --- | --- | ---: | --- | --- |
 | トラスねじ | M2 × 4 mm | 22 本 | [Wilco](https://wilco.jp/) | `FT-0204EB` |
 | ねじ | M1.4 × 5 mm | 3 本 | [Wilco](https://wilco.jp/) | `F-1450N-01` |
-| 丸型両雌ねじスペーサー | M2 × 5 mm | 8 本 | [ヒロスギ](https://hirosugi.co.jp/)（[Web ショップ](https://www.hirosugi-net.co.jp/)）または [Wilco](https://wilco.jp/) | `ARB-2005E` |
+| 丸型両雌ねじスペーサー | M2 × 5 mm | 8 本 | [ヒロスギ](https://hirosugi.co.jp/)（[Web ショップ](https://www.hirosugi-net.co.jp/)） | `ARB-2005E` |
 | ナット | M2 | 2 個 | [Wilco](https://wilco.jp/) | `FNT-02N` |
 | 薄ナット | M1.4 | 3 個 | [Wilco](https://wilco.jp/) | `UNTD-014` |
-| ゴム足 | φ7.9 × H2.2 mm | 8 個 | TBD | `SJ5302` |
+| ゴム足 | φ7.9 × H2.2 mm | 8 個 | [Amazon](https://www.amazon.co.jp/) | `SJ5302` または `CS-01` |
 | スイッチ | Gateron Low Profile ホットスワップ | 49 個 | TBD | `KS-27 Gateron Low Profile` または `KS-33 Gateron Low Profile 2.0` |
 | スタビライザー | Gateron Low Profile、プレートマウント | 2 個 | TBD | `KS-57 Gateron Low Profile Plate Mounted Stabilizer` |
 | トラックボール球 | 25 mm | 1 個 | TBD | — |

@@ -22,10 +22,10 @@ The case and four switch plates are provided as STEP files in [`case/`](../case/
 | --- | --- | ---: | --- | --- |
 | Truss-head screw | M2 × 4 mm | 22 | [Wilco](https://wilco.jp/) | `FT-0204EB` |
 | Screw | M1.4 × 5 mm | 3 | [Wilco](https://wilco.jp/) | `F-1450N-01` |
-| Round female-to-female spacer | M2 × 5 mm | 8 | [Hirosugi](https://hirosugi.co.jp/) ([web shop](https://www.hirosugi-net.co.jp/)) or [Wilco](https://wilco.jp/) | `ARB-2005E` |
+| Round female-to-female spacer | M2 × 5 mm | 8 | [Hirosugi](https://hirosugi.co.jp/) ([web shop](https://www.hirosugi-net.co.jp/)) | `ARB-2005E` |
 | Nut | M2 | 2 | [Wilco](https://wilco.jp/) | `FNT-02N` |
 | Thin nut | M1.4 | 3 | [Wilco](https://wilco.jp/) | `UNTD-014` |
-| Bumpon / rubber foot | Ø7.9 × H2.2 mm | 8 | TBD | `SJ5302` |
+| Bumpon / rubber foot | Ø7.9 × H2.2 mm | 8 | [Amazon](https://www.amazon.co.jp/) | `SJ5302` or `CS-01` |
 | Switch | Gateron Low Profile hotswap | 49 | TBD | `KS-27 Gateron Low Profile` or `KS-33 Gateron Low Profile 2.0` |
 | Stabilizer | Gateron Low Profile, plate-mounted | 2 | TBD | `KS-57 Gateron Low Profile Plate Mounted Stabilizer` |
 | Trackball ball | 25 mm | 1 | TBD | — |
