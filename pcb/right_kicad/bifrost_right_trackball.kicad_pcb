@@ -94,7 +94,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(grid_origin 138.90625 99.21875)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -1291,7 +1290,7 @@
 		(at 138.90625 99.21875 -90)
 		(descr "PMW3610DM-SUDU special 16pin molded lead-frame DIP")
 		(property "Reference" "U1"
-			(at -12.8 0 0)
+			(at -12.988 0 180)
 			(layer "F.SilkS")
 			(uuid "70a1e7dc-13e0-49a6-b9d9-e08903ad7237")
 			(effects
@@ -1314,7 +1313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "007ddd05-599e-4aa8-85ca-cc7bcb9bad9a")
@@ -1326,7 +1325,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b27ccb3f-224c-42df-82ad-bc5dc3c92c18")
@@ -1337,43 +1336,9 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C42442560"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9144b874-6670-4d47-a747-64ea0c54656c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MFR. Part #" "PMW3610DM-SUDU"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6dd91f77-ac7d-40b2-a271-cf5c3d34b999")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/eafa7830-dd91-44aa-97cf-232127ecfe42")
 		(sheetname "/")
 		(sheetfile "bifrost_right_trackball.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "12" "13" "1" "10" "16" "15" "9" "14" "11" "6" "4" "7" "8" "3"
-					"2" "5"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1476,29 +1441,27 @@
 			(layer "F.SilkS")
 			(uuid "ab9bdf53-42db-4161-8fd7-46c7c631dccd")
 		)
-		(fp_poly
-			(pts
-				(xy -11.738 3.7) (xy -11.4376 3.7) (xy -11.4376 5.25) (xy -11.738 5.25)
-			)
+		(fp_rect
+			(start -11.738 3.7)
+			(end -11.4376 5.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "52a9c179-af3a-4c8f-9aed-b8fe634a6f62")
+			(uuid "8823a353-687b-441d-b47e-40f7591bbaba")
 		)
-		(fp_poly
-			(pts
-				(xy -11.738 -5.25) (xy -11.4376 -5.25) (xy -11.4376 -3.7) (xy -11.738 -3.7)
-			)
+		(fp_rect
+			(start -11.738 -5.25)
+			(end -11.4376 -3.7)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "4ce83ee4-4a57-4b29-a32b-9fdd45f46ef6")
+			(uuid "c1310775-5096-4590-b532-5273a6386be7")
 		)
 		(fp_line
 			(start 0 1.016)
@@ -1531,29 +1494,16 @@
 			(layer "Cmts.User")
 			(uuid "edeb8653-f4bd-4da6-98ca-f26ceeafb473")
 		)
-		(fp_poly
-			(pts
-				(xy -11.24 -4.35) (xy 5.96 -4.35) (xy 5.96 4.35) (xy -11.24 4.35)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "Edge.Cuts")
-			(uuid "dd13abf3-bb92-47be-885b-f47ca5aa93cd")
-		)
-		(fp_poly
-			(pts
-				(xy -11.988 -6.5) (xy 6.262 -6.5) (xy 6.262 6.5) (xy -11.988 6.5)
-			)
+		(fp_rect
+			(start -11.988 6.5)
+			(end 6.262 -6.5)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "c5a18d1c-c7db-4483-af5b-2126b7387316")
+			(uuid "5f9120e4-16c6-498f-8031-0fd714223397")
 		)
 		(fp_line
 			(start -11.538 5.05)
@@ -1705,6 +1655,17 @@
 			(layer "F.Fab")
 			(uuid "dc7bbff6-71b4-4c05-9b0f-ef6386d4d286")
 		)
+		(fp_rect
+			(start -11.25 -4.55)
+			(end 4.7 4.55)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c52e9a30-2ba3-4dd5-b5fc-b365d7012c58")
+		)
 		(fp_poly
 			(pts
 				(xy 3.18 -4.1) (xy 2.78 -3.3) (xy 3.58 -3.3)
@@ -1716,18 +1677,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "aa398ea6-50d5-4573-bbc4-b279c86431ba")
-		)
-		(fp_poly
-			(pts
-				(xy -11.25 -4.55) (xy 4.7 -4.55) (xy 4.7 4.55) (xy -11.25 4.55)
-			)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "fcefbe02-f3a8-452a-8486-a09d224c75bd")
 		)
 		(fp_text user "Optical Center"
 			(at -1.488 0 180)
@@ -1742,7 +1691,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 3.180001 -5.35 90)
+			(at 3.18 -5.35 90)
 			(size 1.25 1.25)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1820,7 +1769,7 @@
 			(uuid "7a11ee4d-d1ef-41a6-af3f-fc4291222413")
 		)
 		(pad "8" thru_hole oval
-			(at -9.279999 -5.35 90)
+			(at -9.28 -5.35 90)
 			(size 1.25 1.25)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -1926,17 +1875,6 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/PMW3610.step"
-			(offset
-				(xyz 4.7 4.55 1.65)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -180)
-			)
-		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -2843,7 +2781,7 @@
 	)
 	(gr_arc
 		(start 130.10625 105.21875)
-		(mid 129.752697 105.072303)
+		(mid 129.752711 105.072289)
 		(end 129.60625 104.71875)
 		(stroke
 			(width 0.1)
@@ -2884,7 +2822,7 @@
 	)
 	(gr_arc
 		(start 134.60625 88.71875)
-		(mid 134.752697 88.365197)
+		(mid 134.752711 88.365211)
 		(end 135.10625 88.21875)
 		(stroke
 			(width 0.1)
@@ -2895,7 +2833,7 @@
 	)
 	(gr_arc
 		(start 134.60625 104.71875)
-		(mid 134.459803 105.072303)
+		(mid 134.459789 105.072289)
 		(end 134.10625 105.21875)
 		(stroke
 			(width 0.1)
@@ -2927,7 +2865,7 @@
 	)
 	(gr_arc
 		(start 142.70625 88.21875)
-		(mid 143.059803 88.365197)
+		(mid 143.059789 88.365211)
 		(end 143.20625 88.71875)
 		(stroke
 			(width 0.1)
@@ -2948,7 +2886,7 @@
 	)
 	(gr_arc
 		(start 143.70625 105.21875)
-		(mid 143.352697 105.072303)
+		(mid 143.352711 105.072289)
 		(end 143.20625 104.71875)
 		(stroke
 			(width 0.1)
@@ -2959,7 +2897,7 @@
 	)
 	(gr_arc
 		(start 144.20625 85.01875)
-		(mid 147.034677 86.190323)
+		(mid 147.034662 86.190338)
 		(end 148.20625 89.01875)
 		(stroke
 			(width 0.1)
@@ -2990,7 +2928,7 @@
 	)
 	(gr_arc
 		(start 148.20625 104.71875)
-		(mid 148.059803 105.072303)
+		(mid 148.059789 105.072289)
 		(end 147.70625 105.21875)
 		(stroke
 			(width 0.1)
