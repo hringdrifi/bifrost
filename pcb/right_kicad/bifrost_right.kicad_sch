@@ -11347,7 +11347,7 @@
 			)
 		)
 	)
-	(global_label "CS"
+	(global_label "nCS"
 		(shape input)
 		(at 254 35.56 180)
 		(fields_autoplaced yes)
@@ -11359,7 +11359,7 @@
 		)
 		(uuid "c368b6a2-38f4-4702-8d81-c475d2cd8142")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.5353 35.56 0)
+			(at 247.3863 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

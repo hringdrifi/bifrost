@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name "Smidr")(type "KiCad")(uri "${KIPRJMOD}/smidr.pretty")(options "")(descr "Smiðr generated footprints"))
+	(version 7)
+	(lib (name "Smidr") (type "KiCad") (uri "${KIPRJMOD}/smidr.pretty") (options "") (descr "Smiðr generated footprints"))
+	(lib (name "pmw3610_pcb") (type "KiCad") (uri "${KIPRJMOD}/pmw3610_pcb.pretty") (options "") (descr ""))
 )

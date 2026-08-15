@@ -29,13 +29,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Red")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -44,6 +45,7 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
+				(color "FR4 natural")
 				(thickness 1.11)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -55,7 +57,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Red")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -63,6 +65,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -83,6 +86,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -11875,7 +11879,7 @@
 		)
 		(fp_line
 			(start 1.65 -7.791025)
-			(end 3.004641 -7.008922)
+			(end 3.00464 -7.008922)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -11958,7 +11962,7 @@
 		(fp_arc
 			(start 3.50979 -6.875)
 			(mid 3.248308 -6.908364)
-			(end 3.004641 -7.008922)
+			(end 3.00464 -7.008922)
 			(stroke
 				(width 0.15)
 				(type solid)

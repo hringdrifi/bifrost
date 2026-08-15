@@ -29,6 +29,7 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
@@ -44,6 +45,7 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
+				(color "Aluminum")
 				(thickness 1.11)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -63,6 +65,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -83,6 +86,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)

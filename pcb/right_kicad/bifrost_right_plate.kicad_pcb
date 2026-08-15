@@ -29,12 +29,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -43,6 +45,7 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
+				(color "Aluminum")
 				(thickness 1.11)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -54,6 +57,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -61,6 +65,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -81,6 +86,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -4625,7 +4631,7 @@
 		(mid -135.840864 9.750853)
 		(end -134.542277 8.653086)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4635,7 +4641,7 @@
 		(start -136.326563 72.209898)
 		(end -136.326562 11.380429)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4646,7 +4652,7 @@
 		(mid -136.233829 72.947094)
 		(end -136.326563 72.209898)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4656,7 +4662,7 @@
 		(start -135.56636 74.360548)
 		(end -135.961405 73.638355)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4667,7 +4673,7 @@
 		(mid -85.033549 -7.15636)
 		(end -33.3375 -12.501562)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4678,7 +4684,7 @@
 		(mid -134.738057 75.027021)
 		(end -135.56636 74.360548)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4688,7 +4694,7 @@
 		(center -133.35 71.338699)
 		(end -133.349999 70.238699)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -4699,7 +4705,7 @@
 		(start -126.02097 70.722449)
 		(end -133.681091 74.91259)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4710,7 +4716,7 @@
 		(mid -91.030792 55.848311)
 		(end -53.80468 48.117266)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4720,7 +4726,7 @@
 		(center -116.679234 4.794859)
 		(end -116.679234 3.694859)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -4732,7 +4738,7 @@
 		(mid -51.406909 48.785192)
 		(end -50.119883 50.915685)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4742,7 +4748,7 @@
 		(start -47.10797 68.939307)
 		(end -50.119883 50.915685)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4753,7 +4759,7 @@
 		(mid -46.596686 69.802139)
 		(end -47.10797 68.939307)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4763,7 +4769,7 @@
 		(start -33.3375 -12.501562)
 		(end 9.525 -12.501563)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4773,7 +4779,7 @@
 		(start -33.3375 69.651563)
 		(end -45.637701 70.0958)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4784,7 +4790,7 @@
 		(mid 11.629717 -11.629731)
 		(end 12.501563 -9.525)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4794,7 +4800,7 @@
 		(center 9.525 -9.525)
 		(end 9.525 -10.625)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -4805,7 +4811,7 @@
 		(center 9.525 66.675)
 		(end 9.525 65.575)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -4816,7 +4822,7 @@
 		(start 9.525 69.651563)
 		(end -33.3375 69.651563)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4826,7 +4832,7 @@
 		(start 12.501563 -9.525)
 		(end 12.501562 66.675)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4837,7 +4843,7 @@
 		(mid 11.629747 68.779748)
 		(end 9.525 69.651563)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")

@@ -29,13 +29,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Red")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -44,6 +45,7 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
+				(color "FR4 natural")
 				(thickness 1.11)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -55,7 +57,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Red")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -63,6 +65,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "Black")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -83,6 +86,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -1145,7 +1149,7 @@
 			(uuid "5c4e6dd2-8f9b-89c6-a360-d5ff9baa705a")
 		)
 		(fp_arc
-			(start 3.1582 -2.525011)
+			(start 3.1582 -2.52501)
 			(mid 2.899311 -2.559102)
 			(end 2.658057 -2.659024)
 			(stroke
@@ -11897,7 +11901,7 @@
 		)
 		(fp_arc
 			(start -4.875 -3.375)
-			(mid -4.981065 -3.418935)
+			(mid -4.981065 -3.418936)
 			(end -5.025 -3.525)
 			(stroke
 				(width 0.15)
@@ -12358,7 +12362,7 @@
 		)
 		(fp_arc
 			(start -5.025 -7.775)
-			(mid -4.981066 -7.881066)
+			(mid -4.981066 -7.881067)
 			(end -4.875001 -7.925)
 			(stroke
 				(width 0.15)
@@ -13120,7 +13124,7 @@
 			(uuid "5c56f8d4-6c7e-b247-5382-5fe9c074fa4c")
 		)
 		(fp_line
-			(start 1.149999 -3.375)
+			(start 1.149998 -3.375)
 			(end -4.875 -3.375)
 			(stroke
 				(width 0.15)
@@ -13550,7 +13554,7 @@
 			(uuid "27999017-fc59-1459-7b24-4c309b47e995")
 		)
 		(fp_line
-			(start 3.509789 -6.875)
+			(start 3.509788 -6.875)
 			(end 6.675 -6.875)
 			(stroke
 				(width 0.15)
@@ -13571,7 +13575,7 @@
 		)
 		(fp_line
 			(start 1.15 -3.375)
-			(end -4.875001 -3.375)
+			(end -4.875002 -3.375)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13663,7 +13667,7 @@
 			(uuid "94a0f773-7695-e46f-e92e-b5ffc033105a")
 		)
 		(fp_arc
-			(start 3.509789 -6.875)
+			(start 3.509788 -6.875)
 			(mid 3.248308 -6.908363)
 			(end 3.004644 -7.008922)
 			(stroke
@@ -13696,8 +13700,8 @@
 			(uuid "8056cffb-0f99-4e1f-a7db-34fd9932e3b5")
 		)
 		(fp_arc
-			(start -4.875001 -3.375)
-			(mid -4.981066 -3.418935)
+			(start -4.875002 -3.375)
+			(mid -4.981066 -3.418936)
 			(end -5.025 -3.525)
 			(stroke
 				(width 0.15)
@@ -14081,7 +14085,7 @@
 		)
 		(fp_arc
 			(start 6.825 -2.675)
-			(mid 6.781066 -2.568934)
+			(mid 6.781067 -2.568934)
 			(end 6.675 -2.525)
 			(stroke
 				(width 0.15)
@@ -14531,7 +14535,7 @@
 		)
 		(fp_arc
 			(start 6.825 -2.675)
-			(mid 6.781066 -2.568934)
+			(mid 6.781066 -2.568935)
 			(end 6.675 -2.525)
 			(stroke
 				(width 0.15)
@@ -20472,7 +20476,7 @@
 		)
 		(fp_line
 			(start 3.50979 -6.875)
-			(end 6.675 -6.874999)
+			(end 6.675 -6.874998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -20552,7 +20556,7 @@
 			(uuid "dd60f389-32ce-4aaa-52d3-8d8ce4a92829")
 		)
 		(fp_arc
-			(start 6.675 -6.874999)
+			(start 6.675 -6.874998)
 			(mid 6.781065 -6.831065)
 			(end 6.825 -6.725)
 			(stroke
