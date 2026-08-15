@@ -83,7 +83,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -509,7 +508,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 7.5)
 			(layer "B.Fab")
 			(uuid "2a99c8b0-180a-4957-bd6c-73c0193f722d")
@@ -534,7 +533,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 7.5)
 			(layer "B.Fab")
 			(hide yes)
@@ -550,12 +549,6 @@
 		(path "/dbc5ee13-c6e4-85ae-8bf9-4d34e053e891")
 		(sheetname "/")
 		(sheetfile "bifrost_right.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -965,7 +958,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 2.5)
 			(layer "B.Fab")
 			(uuid "28aa07ee-5f50-4316-89a7-156c4b1db5fb")
@@ -990,7 +983,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 2.5)
 			(layer "B.Fab")
 			(hide yes)
@@ -1006,12 +999,6 @@
 		(path "/dac5ec80-c2e0-a687-50b4-961fff1033ba")
 		(sheetname "/")
 		(sheetfile "bifrost_right.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1158,7 +1145,7 @@
 			(uuid "5c4e6dd2-8f9b-89c6-a360-d5ff9baa705a")
 		)
 		(fp_arc
-			(start 3.1582 -2.525009)
+			(start 3.1582 -2.525011)
 			(mid 2.899311 -2.559102)
 			(end 2.658057 -2.659024)
 			(stroke
@@ -1421,7 +1408,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1.5U"
 			(at 0 -11.025 0)
 			(layer "B.Fab")
 			(uuid "d5550694-110a-4cba-97a9-785453fc7e2a")
@@ -1874,7 +1861,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "2.25U"
 			(at 0 -11.025 0)
 			(layer "B.Fab")
 			(uuid "8a4a9c71-3ca8-45e7-94ee-16d82198848f")
@@ -2493,7 +2480,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 181.524)
 			(layer "B.Fab")
 			(uuid "c5b5e09a-af1d-4d5b-a209-ad64bff86bac")
@@ -2903,7 +2890,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Gateron Low Profile Switch V2.step"
 			(offset
-				(xyz 0 0 1.6)
+				(xyz 0 0 2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2914,7 +2901,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Low Profile Keycap 1U.step"
 			(offset
-				(xyz 0 0 -8.35)
+				(xyz 0 0 -7.95)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6340,7 +6327,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 180)
 			(layer "B.Fab")
 			(uuid "13f23292-6868-4876-b2c4-f68a44ae91e3")
@@ -6365,7 +6352,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -6381,12 +6368,6 @@
 		(path "/a8a834df-62c6-e506-4f26-9a409bff3fe5")
 		(sheetname "/")
 		(sheetfile "bifrost_right.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6793,7 +6774,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 180)
 			(layer "B.Fab")
 			(uuid "220ef7c5-e8f1-44d2-a34c-048de2e23396")
@@ -6818,7 +6799,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -6834,12 +6815,6 @@
 		(path "/a7a8334c-aac2-1dfa-5dac-df9a027c7a3f")
 		(sheetname "/")
 		(sheetfile "bifrost_right.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7246,7 +7221,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 0)
 			(layer "B.Fab")
 			(uuid "a5ecaaee-9519-4380-8eb2-58685ed9044c")
@@ -7271,7 +7246,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -7287,12 +7262,6 @@
 		(path "/a6a831b9-22be-d6b5-cc4c-0393c719a636")
 		(sheetname "/")
 		(sheetfile "bifrost_right.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7865,7 +7834,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 0)
 			(layer "B.Fab")
 			(uuid "45f89054-9373-48a0-8e4c-ebff70c4967a")
@@ -7890,7 +7859,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -7906,12 +7875,6 @@
 		(path "/a5a83026-7ac0-d6fb-d6d8-00856b3ea520")
 		(sheetname "/")
 		(sheetfile "bifrost_right.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8318,7 +8281,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 0)
 			(layer "B.Fab")
 			(uuid "908b95ad-1718-473e-92ca-62f6bb6516b1")
@@ -8343,7 +8306,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -8359,12 +8322,6 @@
 		(path "/a3a82d00-bad2-d7a6-f47c-62cac090c76f")
 		(sheetname "/")
 		(sheetfile "bifrost_right.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10203,7 +10160,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 12.36)
 			(layer "B.Fab")
 			(uuid "1c2d4c50-2d11-432e-a6ec-4180badb469d")
@@ -10228,7 +10185,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 12.36)
 			(layer "B.Fab")
 			(hide yes)
@@ -10337,6 +10294,16 @@
 			(uuid "23174778-7ac2-6590-b83d-c487f4986122")
 		)
 		(fp_line
+			(start -4.875001 -7.925)
+			(end -0.75 -7.925)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "73ca07af-e6fe-438c-8b59-ab6653492730")
+		)
+		(fp_line
 			(start -5.025 -7.25)
 			(end -5.025 -7.775)
 			(stroke
@@ -10370,7 +10337,7 @@
 		)
 		(fp_arc
 			(start 3.1582 -2.525012)
-			(mid 2.899309 -2.559101)
+			(mid 2.899311 -2.559102)
 			(end 2.658057 -2.659024)
 			(stroke
 				(width 0.15)
@@ -10381,7 +10348,7 @@
 		)
 		(fp_arc
 			(start 3.50979 -6.875)
-			(mid 3.248309 -6.908363)
+			(mid 3.248308 -6.908363)
 			(end 3.004644 -7.008922)
 			(stroke
 				(width 0.15)
@@ -10402,6 +10369,17 @@
 			(uuid "8fb68f37-1d97-eda7-259d-f711f36752b4")
 		)
 		(fp_arc
+			(start 1.15 -7.924999)
+			(mid 1.408818 -7.890925)
+			(end 1.649999 -7.791025)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "4acd81a5-d574-4764-9b17-8ea811ea6b81")
+		)
+		(fp_arc
 			(start -4.875 -3.375)
 			(mid -4.981066 -3.418934)
 			(end -5.025 -3.525)
@@ -10411,6 +10389,17 @@
 			)
 			(layer "B.SilkS")
 			(uuid "7bafb3f6-be86-c3ac-fa79-b16b08ce14ce")
+		)
+		(fp_arc
+			(start -5.025 -7.775)
+			(mid -4.981066 -7.881066)
+			(end -4.875001 -7.925)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "1e63b66c-2304-4f07-9544-c0b2a60ef643")
 		)
 		(fp_line
 			(start 7 -7)
@@ -10621,7 +10610,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.024999 17.853)
 			(layer "B.Fab")
 			(uuid "7aadc53f-6942-4971-aa3a-315147668d97")
@@ -10646,7 +10635,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 17.853)
 			(layer "B.Fab")
 			(hide yes)
@@ -10764,6 +10753,16 @@
 			(layer "B.SilkS")
 			(uuid "cc9b96cc-9b3c-d0d8-3633-c3baf8fc661f")
 		)
+		(fp_line
+			(start -4.875001 -7.925)
+			(end -0.75 -7.925)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "43c2c381-66fb-41bc-8704-62f1071deecd")
+		)
 		(fp_arc
 			(start 6.825 -2.675)
 			(mid 6.781066 -2.568933)
@@ -10788,7 +10787,7 @@
 		)
 		(fp_arc
 			(start 3.1582 -2.525012)
-			(mid 2.899309 -2.559101)
+			(mid 2.899311 -2.559102)
 			(end 2.658057 -2.659024)
 			(stroke
 				(width 0.15)
@@ -10799,7 +10798,7 @@
 		)
 		(fp_arc
 			(start 3.50979 -6.875)
-			(mid 3.248309 -6.908363)
+			(mid 3.248308 -6.908363)
 			(end 3.004644 -7.008922)
 			(stroke
 				(width 0.15)
@@ -10820,8 +10819,19 @@
 			(uuid "7ce4c510-bc51-4020-a232-ea778b604fd2")
 		)
 		(fp_arc
+			(start 1.15 -7.925)
+			(mid 1.408819 -7.890925)
+			(end 1.649999 -7.791025)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "31e9e170-e102-4600-abca-e79f1dad5008")
+		)
+		(fp_arc
 			(start -4.875 -3.375)
-			(mid -4.981067 -3.418933)
+			(mid -4.981067 -3.418934)
 			(end -5.025 -3.525)
 			(stroke
 				(width 0.15)
@@ -10829,6 +10839,17 @@
 			)
 			(layer "B.SilkS")
 			(uuid "94eba69d-3db3-fa6a-ed8f-0dc050eda865")
+		)
+		(fp_arc
+			(start -5.025 -7.775)
+			(mid -4.981066 -7.881066)
+			(end -4.875001 -7.925)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "28cae871-9219-4dbc-97c0-b06ab4142f55")
 		)
 		(fp_line
 			(start 7 -7)
@@ -11205,7 +11226,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 23.346)
 			(layer "B.Fab")
 			(uuid "3d1baa8e-4640-48a7-9a8c-187801723835")
@@ -11230,7 +11251,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 23.346)
 			(layer "B.Fab")
 			(hide yes)
@@ -11348,6 +11369,16 @@
 			(layer "B.SilkS")
 			(uuid "994b64df-2e62-28a7-6770-27c22bff8267")
 		)
+		(fp_line
+			(start -4.875001 -7.925)
+			(end -0.75 -7.924999)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "d17cd418-d82a-41bc-906e-5c9cbd954634")
+		)
 		(fp_arc
 			(start 6.825 -2.675)
 			(mid 6.781066 -2.568934)
@@ -11372,7 +11403,7 @@
 		)
 		(fp_arc
 			(start 3.1582 -2.525012)
-			(mid 2.899308 -2.559101)
+			(mid 2.899311 -2.559102)
 			(end 2.658057 -2.659024)
 			(stroke
 				(width 0.15)
@@ -11383,7 +11414,7 @@
 		)
 		(fp_arc
 			(start 3.50979 -6.875)
-			(mid 3.248315 -6.908376)
+			(mid 3.248307 -6.908364)
 			(end 3.004644 -7.008922)
 			(stroke
 				(width 0.15)
@@ -11404,8 +11435,19 @@
 			(uuid "b7a850cd-f98e-cadb-1ed7-4f60bf1deac5")
 		)
 		(fp_arc
+			(start 1.15 -7.924999)
+			(mid 1.408819 -7.890925)
+			(end 1.649999 -7.791025)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "7b8a0b49-a274-45f6-8a73-324f640a8c61")
+		)
+		(fp_arc
 			(start -4.875 -3.375)
-			(mid -4.981067 -3.418934)
+			(mid -4.981066 -3.418934)
 			(end -5.025001 -3.525)
 			(stroke
 				(width 0.15)
@@ -11413,6 +11455,17 @@
 			)
 			(layer "B.SilkS")
 			(uuid "a8a83930-85b2-4cae-2b71-e87276004dd7")
+		)
+		(fp_arc
+			(start -5.025 -7.775)
+			(mid -4.981067 -7.881065)
+			(end -4.875001 -7.925)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "722ac6e1-5a4a-4ea5-80be-e9e9bba952f8")
 		)
 		(fp_line
 			(start 7 -7)
@@ -11623,7 +11676,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 21.793)
 			(layer "B.Fab")
 			(uuid "d9d5aa1a-cdef-4b2f-8339-f01f66b8ceac")
@@ -11844,7 +11897,7 @@
 		)
 		(fp_arc
 			(start -4.875 -3.375)
-			(mid -4.981065 -3.418936)
+			(mid -4.981065 -3.418935)
 			(end -5.025 -3.525)
 			(stroke
 				(width 0.15)
@@ -12033,7 +12086,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Gateron Low Profile Switch V2.step"
 			(offset
-				(xyz 0 0 1.6)
+				(xyz 0 0 2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12044,7 +12097,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Low Profile Keycap 1U.step"
 			(offset
-				(xyz 0 0 -8.35)
+				(xyz 0 0 -7.95)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12073,7 +12126,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 3.441)
 			(layer "B.Fab")
 			(uuid "aee22a21-5302-46cb-b6f3-a3a9fc009d76")
@@ -12305,7 +12358,7 @@
 		)
 		(fp_arc
 			(start -5.025 -7.775)
-			(mid -4.981066 -7.881069)
+			(mid -4.981066 -7.881066)
 			(end -4.875001 -7.925)
 			(stroke
 				(width 0.15)
@@ -12483,7 +12536,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Gateron Low Profile Switch V2.step"
 			(offset
-				(xyz 0 0 1.6)
+				(xyz 0 0 2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12494,7 +12547,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Low Profile Keycap 1U.step"
 			(offset
-				(xyz 0 0 -8.35)
+				(xyz 0 0 -7.95)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12523,7 +12576,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 1.373)
 			(layer "B.Fab")
 			(uuid "c4c7a4b3-8dc6-4a49-92d6-569c5c3fde96")
@@ -12933,7 +12986,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Gateron Low Profile Switch V2.step"
 			(offset
-				(xyz 0 0 1.6)
+				(xyz 0 0 2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12944,7 +12997,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Low Profile Keycap 1U.step"
 			(offset
-				(xyz 0 0 -8.35)
+				(xyz 0 0 -7.95)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12973,7 +13026,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 17.205)
 			(layer "B.Fab")
 			(uuid "6cf21126-2bf6-40f0-8c2f-d87b2c4ae2a9")
@@ -13067,7 +13120,7 @@
 			(uuid "5c56f8d4-6c7e-b247-5382-5fe9c074fa4c")
 		)
 		(fp_line
-			(start 1.149998 -3.375)
+			(start 1.149999 -3.375)
 			(end -4.875 -3.375)
 			(stroke
 				(width 0.15)
@@ -13383,7 +13436,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Gateron Low Profile Switch V2.step"
 			(offset
-				(xyz 0 0 1.6)
+				(xyz 0 0 2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -13394,7 +13447,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Low Profile Keycap 1U.step"
 			(offset
-				(xyz 0 0 -8.35)
+				(xyz 0 0 -7.95)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -13423,7 +13476,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0.000001 -11.025 6.867)
 			(layer "B.Fab")
 			(uuid "3de5df84-c73b-4b66-abbb-53eecdf34c64")
@@ -13448,7 +13501,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 6.867)
 			(layer "B.Fab")
 			(hide yes)
@@ -13497,7 +13550,7 @@
 			(uuid "27999017-fc59-1459-7b24-4c309b47e995")
 		)
 		(fp_line
-			(start 3.509786 -6.875)
+			(start 3.509789 -6.875)
 			(end 6.675 -6.875)
 			(stroke
 				(width 0.15)
@@ -13518,7 +13571,7 @@
 		)
 		(fp_line
 			(start 1.15 -3.375)
-			(end -4.875002 -3.375)
+			(end -4.875001 -3.375)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13557,6 +13610,16 @@
 			(uuid "59446024-9731-fa1d-cc98-d51c4e0470b9")
 		)
 		(fp_line
+			(start -4.875001 -7.925)
+			(end -0.75 -7.925)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "2df7f97e-7e82-4b4e-a960-6699cb985c94")
+		)
+		(fp_line
 			(start -5.025 -7.25)
 			(end -5.025 -7.775)
 			(stroke
@@ -13590,7 +13653,7 @@
 		)
 		(fp_arc
 			(start 3.1582 -2.525012)
-			(mid 2.899309 -2.559101)
+			(mid 2.899311 -2.559102)
 			(end 2.658057 -2.659024)
 			(stroke
 				(width 0.15)
@@ -13600,7 +13663,7 @@
 			(uuid "94a0f773-7695-e46f-e92e-b5ffc033105a")
 		)
 		(fp_arc
-			(start 3.509786 -6.875)
+			(start 3.509789 -6.875)
 			(mid 3.248308 -6.908363)
 			(end 3.004644 -7.008922)
 			(stroke
@@ -13622,8 +13685,19 @@
 			(uuid "1b997d33-faf1-6c66-3267-ca6a8f736fcf")
 		)
 		(fp_arc
-			(start -4.875002 -3.375)
-			(mid -4.981066 -3.418937)
+			(start 1.15 -7.924999)
+			(mid 1.408819 -7.890925)
+			(end 1.649999 -7.791025)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8056cffb-0f99-4e1f-a7db-34fd9932e3b5")
+		)
+		(fp_arc
+			(start -4.875001 -3.375)
+			(mid -4.981066 -3.418935)
 			(end -5.025 -3.525)
 			(stroke
 				(width 0.15)
@@ -13631,6 +13705,17 @@
 			)
 			(layer "B.SilkS")
 			(uuid "289991aa-a857-81ef-9f87-70cda332d568")
+		)
+		(fp_arc
+			(start -5.025 -7.775)
+			(mid -4.981066 -7.881066)
+			(end -4.875001 -7.925)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "a6cd5ac5-5f7c-4326-b568-ae83ee2364d2")
 		)
 		(fp_line
 			(start 7 -7)
@@ -13841,7 +13926,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 8.029)
 			(layer "B.Fab")
 			(uuid "5db8339b-33e1-446a-9705-9fcc2c7a8cde")
@@ -13996,7 +14081,7 @@
 		)
 		(fp_arc
 			(start 6.825 -2.675)
-			(mid 6.781067 -2.568934)
+			(mid 6.781066 -2.568934)
 			(end 6.675 -2.525)
 			(stroke
 				(width 0.15)
@@ -14251,7 +14336,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Gateron Low Profile Switch V2.step"
 			(offset
-				(xyz 0 0 1.6)
+				(xyz 0 0 2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -14262,7 +14347,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Low Profile Keycap 1U.step"
 			(offset
-				(xyz 0 0 -8.35)
+				(xyz 0 0 -7.95)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -14291,7 +14376,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at -0.000001 -11.025 12.617)
 			(layer "B.Fab")
 			(uuid "c303c063-bf59-4082-a980-2d3814027e6e")
@@ -14446,7 +14531,7 @@
 		)
 		(fp_arc
 			(start 6.825 -2.675)
-			(mid 6.781066 -2.568935)
+			(mid 6.781066 -2.568934)
 			(end 6.675 -2.525)
 			(stroke
 				(width 0.15)
@@ -14701,7 +14786,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Gateron Low Profile Switch V2.step"
 			(offset
-				(xyz 0 0 1.6)
+				(xyz 0 0 2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -14712,7 +14797,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Low Profile Keycap 1U.step"
 			(offset
-				(xyz 0 0 -8.35)
+				(xyz 0 0 -7.95)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -14784,6 +14869,14 @@
 		(path "/18d29fd8-6989-44f2-8f4d-678dba5840f1")
 		(sheetname "/")
 		(sheetfile "bifrost_right.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "SH" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19394,7 +19487,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 22.5)
 			(layer "B.Fab")
 			(uuid "405b49fe-e817-4c58-b515-e3448124d599")
@@ -19804,7 +19897,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Gateron Low Profile Switch V2.step"
 			(offset
-				(xyz 0 0 1.6)
+				(xyz 0 0 2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -19815,7 +19908,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Low Profile Keycap 1U.step"
 			(offset
-				(xyz 0 0 -8.35)
+				(xyz 0 0 -7.95)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -19844,7 +19937,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 17.5)
 			(layer "B.Fab")
 			(uuid "95ebcbcc-7eb8-4c12-ad59-dda1bd68047e")
@@ -20254,7 +20347,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Gateron Low Profile Switch V2.step"
 			(offset
-				(xyz 0 0 1.6)
+				(xyz 0 0 2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -20265,7 +20358,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Low Profile Keycap 1U.step"
 			(offset
-				(xyz 0 0 -8.35)
+				(xyz 0 0 -7.95)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -20294,7 +20387,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 0 -11.025 12.5)
 			(layer "B.Fab")
 			(uuid "828bcf89-0128-455c-80cf-731558423000")
@@ -20379,7 +20472,7 @@
 		)
 		(fp_line
 			(start 3.50979 -6.875)
-			(end 6.675 -6.874998)
+			(end 6.675 -6.874999)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -20459,7 +20552,7 @@
 			(uuid "dd60f389-32ce-4aaa-52d3-8d8ce4a92829")
 		)
 		(fp_arc
-			(start 6.675 -6.874998)
+			(start 6.675 -6.874999)
 			(mid 6.781065 -6.831065)
 			(end 6.825 -6.725)
 			(stroke
@@ -20704,7 +20797,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Gateron Low Profile Switch V2.step"
 			(offset
-				(xyz 0 0 1.6)
+				(xyz 0 0 2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -20715,7 +20808,7 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/Low Profile Keycap 1U.step"
 			(offset
-				(xyz 0 0 -8.35)
+				(xyz 0 0 -7.95)
 			)
 			(scale
 				(xyz 1 1 1)

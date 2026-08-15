@@ -14421,7 +14421,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "2.25U"
 			(at 142.24 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14501,7 +14501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1.5U"
 			(at 165.1 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14660,7 +14660,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 119.38 187.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17469,7 +17469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 142.24 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17549,7 +17549,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 165.1 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17629,7 +17629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 142.24 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17709,7 +17709,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 165.1 187.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17867,7 +17867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 142.24 187.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19004,7 +19004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 52.07 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19084,7 +19084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 73.66 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19164,7 +19164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 52.07 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19244,7 +19244,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 96.52 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19324,7 +19324,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 73.66 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19404,7 +19404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 119.38 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19484,7 +19484,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 30.48 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19564,7 +19564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 30.48 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19644,7 +19644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 119.38 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19724,7 +19724,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 96.52 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19969,7 +19969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 96.52 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20049,7 +20049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 119.38 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20129,7 +20129,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 30.48 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20209,7 +20209,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 73.66 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20289,7 +20289,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1U"
 			(at 52.07 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
