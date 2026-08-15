@@ -15,6 +15,9 @@
 !/pcb/**/3dmodels/*.step
 !/pcb/**/3dmodels/*.stp
 
+# PMW3610 model source and license are not yet confirmed.
+/pcb/right_kicad/3dmodels/PMW3610.step
+
 # OS metadata
 .DS_Store
 Thumbs.db
