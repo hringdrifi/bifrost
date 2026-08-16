@@ -55,7 +55,9 @@ PicoBlade コネクタは基板上ではなく、各ハーネスの途中に着�
 | 左ケース | `bifrost_left_case.step` | 1 個 |
 | 右ケース | `bifrost_right_case.step` | 1 個 |
 | トラックボールケース | `bifrost_trackball_case.step` | 1 個 |
-| 電源スイッチ用ノブ | `bifrost_switch_knob.step` | 2 個 |
+| 電源スイッチ用ノブ（2 個一体モデル） | `bifrost_switch_knob.step` | 1 モデル（ノブ 2 個） |
+
+電源スイッチ用ノブは単体では小さすぎて製造できないため、2 個をつないだ 1 つの 3D モデルとして出力します。出力後に 2 個のノブを切り離してください。
 
 - 推奨製造先: [JLC3DP](https://jlc3dp.com/)
 - 製法: SLA レジン

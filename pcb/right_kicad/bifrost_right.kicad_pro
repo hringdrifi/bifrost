@@ -78,51 +78,51 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|-104770018|20031272|0aaa8316-da52-4f86-a1c6-e8f2a840335e|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          "clearance|104800054|99609803|52e9ad65-0972-488d-8f47-608c235ce4ad|b78a7ab1-98b0-48ad-a074-a77d0915f898",
           ""
         ],
         [
-          "clearance|-105933752|42264245|3e2aac5e-3f22-4f46-ae60-c6d542efc456|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          "clearance|115279842|75199819|94074797-7bf0-4858-98bb-858e8e25e9ce|b78a7ab1-98b0-48ad-a074-a77d0915f898",
           ""
         ],
         [
-          "clearance|-116211593|50542626|8a4a093e-cddb-46d3-8a1b-cc3e9f979e6c|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          "clearance|131170268|93289164|206edcd0-e9e2-4826-bea1-ac49b9308a2c|b78a7ab1-98b0-48ad-a074-a77d0915f898",
           ""
         ],
         [
-          "clearance|-51386552|10630425|643ec140-5db0-446d-86f1-58435e0c8101|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          "clearance|133468563|71945894|f4dfd49b-9ddf-4be2-9477-f981504f5e64|b78a7ab1-98b0-48ad-a074-a77d0915f898",
           ""
         ],
         [
-          "clearance|-69749515|12417454|f4dfd49b-9ddf-4be2-9477-f981504f5e64|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          "clearance|151831696|70160280|643ec140-5db0-446d-86f1-58435e0c8101|b78a7ab1-98b0-48ad-a074-a77d0915f898",
           ""
         ],
         [
-          "clearance|-72030231|33757913|206edcd0-e9e2-4826-bea1-ac49b9308a2c|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          "clearance|87350034|109851873|8a4a093e-cddb-46d3-8a1b-cc3e9f979e6c|b78a7ab1-98b0-48ad-a074-a77d0915f898",
           ""
         ],
         [
-          "clearance|-87937958|15672773|94074797-7bf0-4858-98bb-858e8e25e9ce|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          "clearance|97266745|101795496|3e2aac5e-3f22-4f46-ae60-c6d542efc456|b78a7ab1-98b0-48ad-a074-a77d0915f898",
           ""
         ],
         [
-          "clearance|-95824032|39259100|52e9ad65-0972-488d-8f47-608c235ce4ad|b78a7ab1-98b0-48ad-a074-a77d0915f898",
+          "clearance|98430380|79562551|0aaa8316-da52-4f86-a1c6-e8f2a840335e|b78a7ab1-98b0-48ad-a074-a77d0915f898",
           ""
         ],
         [
-          "npth_inside_courtyard|-28575000|0|9b7e303b-d45e-6db5-b0cb-219685ab8433|9f40fe91-73f6-49bd-a17d-e06787b5e56e",
+          "npth_inside_courtyard|174625500|59531250|9b7e303b-d45e-6db5-b0cb-219685ab8433|9f40fe91-73f6-49bd-a17d-e06787b5e56e",
           ""
         ],
         [
-          "unconnected_items|-17111250|-2823125|F.Cu|4|7b84600b-b314-42bf-ad72-ab2cc91baf58|1d367a75-e0bd-4853-8bb8-5b93e7c0e9d9",
+          "unconnected_items|177473198|56572728|F.Cu|4|f6234b9d-9e9f-079a-3511-184ffc8c3861|1c0d1a97-52a7-04d4-18d1-b3209867e0e7",
           ""
         ],
         [
-          "unconnected_items|-18181250|-2323125|F.Cu|4|a0c8c466-2dcb-4222-96cd-6fdfed8f7bfc|1671ae7c-53fb-4a29-b921-83a76b8164aa",
+          "unconnected_items|184815197|56919699|F.Cu|4|1e50ce46-04e9-0d8f-221c-da78a1bc14a1|19b1e991-0a07-036b-2958-46deb63be557",
           ""
         ],
         [
-          "unconnected_items|-25751250|-2823125|F.Cu|4|b6bd617b-f388-4463-a8bd-f6687f5324d0|0751c7cf-ec5d-4192-90d3-88a4386fbcdc",
+          "unconnected_items|186062379|56569344|F.Cu|4|87a07b08-5409-07a9-3bbf-5057461fd0e4|01262083-e3fe-057c-0f90-93169a66358a",
           ""
         ]
       ],
@@ -211,7 +211,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -226,7 +226,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -237,7 +237,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -248,7 +248,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,

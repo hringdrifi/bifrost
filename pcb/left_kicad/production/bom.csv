@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2, C3",0402,3,100n,
+"D1, D2, D3",LED_WS2812B-2020_PLCC4_2.0x2.0mm,3,WS2812B-2020,
+"H1, H2",MountingHole_TH-1.6-M2,2,MountingHole,C2928170
+J1,PinHeader_1x06_P1.27mm_Vertical,1,Conn_01x06,
+"SW1, SW2, SW3",SW_Smidr_Gateron_LP_Hotswap,3,1U,

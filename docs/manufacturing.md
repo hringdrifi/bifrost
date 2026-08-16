@@ -55,7 +55,9 @@ Manufacture the following parts by **SLA resin 3D printing**:
 | Left-hand case | `bifrost_left_case.step` | 1 |
 | Right-hand case | `bifrost_right_case.step` | 1 |
 | Trackball case | `bifrost_trackball_case.step` | 1 |
-| Power-switch knob | `bifrost_switch_knob.step` | 2 |
+| Power-switch knob (two-knob joined model) | `bifrost_switch_knob.step` | 1 model (2 knobs) |
+
+The power-switch knobs are too small to manufacture individually, so the STEP file contains two knobs joined as one 3D-printing model. Separate the two knobs after printing.
 
 - Recommended manufacturer: [JLC3DP](https://jlc3dp.com/)
 - Manufacturing process: SLA resin
