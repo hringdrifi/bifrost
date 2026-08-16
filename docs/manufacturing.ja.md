@@ -55,6 +55,7 @@ PicoBlade コネクタは基板上ではなく、各ハーネスの途中に着�
 | 左ケース | `bifrost_left_case.step` | 1 個 |
 | 右ケース | `bifrost_right_case.step` | 1 個 |
 | トラックボールケース | `bifrost_trackball_case.step` | 1 個 |
+| 電源スイッチ用ノブ | `bifrost_switch_knob.step` | 2 個 |
 
 - 推奨製造先: [JLC3DP](https://jlc3dp.com/)
 - 製法: SLA レジン

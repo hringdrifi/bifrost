@@ -9,6 +9,7 @@
 | `bifrost_left_case.step` | Left-hand case |
 | `bifrost_right_case.step` | Right-hand case |
 | `bifrost_trackball_case.step` | Trackball case |
+| `bifrost_switch_knob.step` | Knob for the case-mounted power slide switch |
 | `bifrost_left_plate.step` | Left-hand main switch plate |
 | `bifrost_right_plate.step` | Right-hand main switch plate |
 | `bifrost_left_thumb_plate.step` | Left-hand thumb-cluster switch plate |
