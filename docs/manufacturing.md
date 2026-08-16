@@ -30,6 +30,21 @@ The case and four switch plates are provided as STEP files in [`case/`](../case/
 | Stabilizer | Gateron Low Profile, plate-mounted | 2 | TBD | `KS-57 Gateron Low Profile Plate Mounted Stabilizer` |
 | Trackball ball | 25 mm | 1 | TBD | — |
 | Trackball bearing | ID1.5 × OD4 × W2 mm | 3 | TBD | Minebea `DDL-415ZZ` |
+| Lithium-polymer battery | Single cell (3.7 V nominal), with protection circuit | 2 | TBD | TBD |
+| Main PCB–battery wire harness | Two-conductor; inline PicoBlade connector (1.25 mm pitch, 2 pin); length to suit the case | 2 | Molex | TBD |
+| Left main PCB–left thumb-cluster PCB wire harness | Six-conductor; inline PicoBlade connector (1.25 mm pitch, 6 pin); length to suit the case | 1 | Molex | TBD |
+| Right main PCB–right thumb-cluster PCB wire harness | Five-conductor; inline PicoBlade connector (1.25 mm pitch, 5 pin); length to suit the case | 1 | Molex | TBD |
+| Right main PCB–trackball PCB wire harness | Six-conductor; inline PicoBlade connector (1.25 mm pitch, 6 pin); length to suit the case | 1 | Molex | TBD |
+
+Place the PicoBlade connector in each harness as an inline disconnect, not on either PCB. The battery harnesses use 2-pin connectors. Confirm connector mating, pin count, and pinout against the actual parts and PCB design data before ordering.
+
+### Lithium-polymer battery notice and disclaimer
+
+Lithium-polymer batteries can overheat, catch fire, or rupture if short-circuited, overcharged, physically damaged, or improperly charged. This reference does not warrant the safety or compatibility of any battery, charger, harness, or completed product; builders and users are responsible for assembly, use, charging, storage, and disposal.
+
+- Charge through the on-board charging circuit. Do not connect an external charger directly to the battery or harness; use protected single-cell batteries.
+- Do not use or charge batteries that are swollen, damaged, unusually hot, or emitting an odour. Dispose of them according to the battery manufacturer's instructions and local rules.
+- Do not charge near combustible materials, while asleep, or while the battery cannot be supervised. Verify polarity and wiring before connecting.
 
 ## Case fabrication
 
