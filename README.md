@@ -2,6 +2,8 @@
 
 Bifrǫst is a split-keyboard design project by [hringdrifi](https://github.com/hringdrifi).
 
+It is a wireless keyboard design based on the MDBT50Q module, which uses the Nordic nRF52840 SoC.
+
 ![Bifrǫst split keyboard render](assets/bifrost-render.png)
 
 ## Project status
