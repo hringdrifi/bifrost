@@ -30,7 +30,7 @@ The case and four switch plates are provided as STEP files in [`case/`](../case/
 | Stabilizer | Gateron Low Profile, plate-mounted | 2 | TBD | `KS-57 Gateron Low Profile Plate Mounted Stabilizer` |
 | Trackball ball | 25 mm | 1 | TBD | — |
 | Trackball bearing | ID1.5 × OD4 × W2 mm | 3 | TBD | Minebea `DDL-415ZZ` |
-| Lithium-polymer battery | Single cell (3.7 V nominal), with protection circuit | 2 | TBD | TBD |
+| Lithium-polymer battery | Single cell (3.7 V nominal), with protection circuit; maximum dimensions: 6 mm thick × 35 mm wide × 55 mm high | 2 | TBD | TBD |
 | Main PCB–battery wire harness | Two-conductor; inline connection between 75 mm male and female PicoBlade (1.25 mm pitch, 2 pin) pigtails | 2 | Molex | `2181110200` + `2181120200` |
 | Left main PCB–left thumb-cluster PCB wire harness | Six-conductor; inline connection between 75 mm male and female PicoBlade (1.25 mm pitch, 6 pin) pigtails | 1 | Molex | `2181110600` + `2181120600` |
 | Right main PCB–right thumb-cluster PCB wire harness | Five-conductor; inline connection between 75 mm male and female PicoBlade (1.25 mm pitch, 5 pin) pigtails | 1 | Molex | `2181110500` + `2181120500` |
