@@ -86,7 +86,7 @@
           ""
         ],
         [
-          "clearance|189933314|104413047|7e236734-80e9-4b1a-804d-676b0a7f36be|cea3f1b4-77f6-4a72-acd9-ad0013640531",
+          "clearance|189933258|104413027|7e236734-80e9-4b1a-804d-676b0a7f36be|cea3f1b4-77f6-4a72-acd9-ad0013640531",
           ""
         ],
         [
@@ -138,7 +138,15 @@
           ""
         ],
         [
-          "unconnected_items|109612000|57208125|F.Cu|4|84e76b8b-ea2e-4283-a7da-c6f8c745f8ff|7604c5b7-2c10-46d1-9e42-ce9df863a13b",
+          "unconnected_items|102065884|56572964|F.Cu|4|8970fd41-2bf1-0a58-0b29-ccc358f2b78e|436cc8f5-f9f7-0a13-1ce7-bab5c58f5c63",
+          ""
+        ],
+        [
+          "unconnected_items|103316126|56919617|F.Cu|4|61ea6257-232b-0908-3fe1-bcf81a7cb300|2ac65d4f-0113-01aa-32bf-ad59a136df2f",
+          ""
+        ],
+        [
+          "unconnected_items|110195954|56202269|F.Cu|4|3c7985be-5a84-06b6-0800-4f0d49347f94|d5e00da4-442a-0ea3-09ab-9f085e5b7dc4",
           ""
         ]
       ],
@@ -313,7 +321,7 @@
         },
         {
           "diameter": 0.4,
-          "drill": 0.2
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -602,8 +610,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -618,8 +626,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.25
+        "via_diameter": 0.4,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.15,

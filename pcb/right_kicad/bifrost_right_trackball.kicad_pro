@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.65,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 0.75,
+          "height": 1.25,
+          "width": 1.25
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,7 +76,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|92411250|58143750|791824b2-0725-4e00-a598-832dc0c8df6f|b8bdd652-fb2b-43a2-96b2-b82053555cc5",
+          ""
+        ],
+        [
+          "courtyards_overlap|92411250|62323750|250839de-da5b-4be7-8f43-6fe7b2b61ada|791824b2-0725-4e00-a598-832dc0c8df6f",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|106800001|59728800|1b261483-ba27-4801-818f-afa0d15216b9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|98906250|56355750|791824b2-0725-4e00-a598-832dc0c8df6f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|106799999|61633798|13a2e6c5-c95c-4424-87c0-eaf4b6427c0a|0118c9e6-4149-4926-94dd-51a60f3d114c|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|91706250|60393750|13a2e6c5-c95c-4424-87c0-eaf4b6427c0a|d9077c4b-f9cd-4ff5-8936-e6d218995c4b|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -247,7 +272,7 @@
         },
         {
           "diameter": 0.4,
-          "drill": 0.2
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -518,7 +543,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -534,6 +559,21 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -541,7 +581,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

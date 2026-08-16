@@ -112,6 +112,18 @@
         [
           "npth_inside_courtyard|174625500|59531250|9b7e303b-d45e-6db5-b0cb-219685ab8433|9f40fe91-73f6-49bd-a17d-e06787b5e56e",
           ""
+        ],
+        [
+          "unconnected_items|177473198|56572728|F.Cu|4|f6234b9d-9e9f-079a-3511-184ffc8c3861|1c0d1a97-52a7-04d4-18d1-b3209867e0e7",
+          ""
+        ],
+        [
+          "unconnected_items|185019250|57208125|F.Cu|4|a0c8c466-2dcb-4222-96cd-6fdfed8f7bfc|25b4e9fa-1d2c-4c36-a394-fe310b607e71",
+          ""
+        ],
+        [
+          "unconnected_items|185603191|56202200|F.Cu|4|87a07b08-5409-07a9-3bbf-5057461fd0e4|aa5b2e94-f634-07fe-145a-5c47a374117f",
+          ""
         ]
       ],
       "meta": {
@@ -285,7 +297,7 @@
         },
         {
           "diameter": 0.4,
-          "drill": 0.2
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -577,8 +589,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -593,8 +605,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.25
+        "via_diameter": 0.4,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.15,
@@ -693,7 +705,7 @@
         "pattern": "RGB_PWR"
       },
       {
-        "netclass": "Default",
+        "netclass": "GND",
         "pattern": "GND"
       },
       {
