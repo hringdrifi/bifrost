@@ -31,12 +31,12 @@ The case and four switch plates are provided as STEP files in [`case/`](../case/
 | Trackball ball | 25 mm | 1 | TBD | — |
 | Trackball bearing | ID1.5 × OD4 × W2 mm | 3 | TBD | Minebea `DDL-415ZZ` |
 | Lithium-polymer battery | Single cell (3.7 V nominal), with protection circuit | 2 | TBD | TBD |
-| Main PCB–battery wire harness | Two-conductor; inline PicoBlade connector (1.25 mm pitch, 2 pin); length to suit the case | 2 | Molex | TBD |
-| Left main PCB–left thumb-cluster PCB wire harness | Six-conductor; inline PicoBlade connector (1.25 mm pitch, 6 pin); length to suit the case | 1 | Molex | TBD |
-| Right main PCB–right thumb-cluster PCB wire harness | Five-conductor; inline PicoBlade connector (1.25 mm pitch, 5 pin); length to suit the case | 1 | Molex | TBD |
-| Right main PCB–trackball PCB wire harness | Six-conductor; inline PicoBlade connector (1.25 mm pitch, 6 pin); length to suit the case | 1 | Molex | TBD |
+| Main PCB–battery wire harness | Two-conductor; inline connection between 75 mm male and female PicoBlade (1.25 mm pitch, 2 pin) pigtails | 2 | Molex | `2181110200` + `2181120200` |
+| Left main PCB–left thumb-cluster PCB wire harness | Six-conductor; inline connection between 75 mm male and female PicoBlade (1.25 mm pitch, 6 pin) pigtails | 1 | Molex | `2181110600` + `2181120600` |
+| Right main PCB–right thumb-cluster PCB wire harness | Five-conductor; inline connection between 75 mm male and female PicoBlade (1.25 mm pitch, 5 pin) pigtails | 1 | Molex | `2181110500` + `2181120500` |
+| Right main PCB–trackball PCB wire harness | Six-conductor; inline connection between 75 mm male and female PicoBlade (1.25 mm pitch, 6 pin) pigtails | 1 | Molex | `2181110600` + `2181120600` |
 
-Place the PicoBlade connector in each harness as an inline disconnect, not on either PCB. The battery harnesses use 2-pin connectors. Confirm connector mating, pin count, and pinout against the actual parts and PCB design data before ordering.
+Place the PicoBlade connector in each harness as an inline disconnect, not on either PCB. `218111` is a male-to-pigtail and `218112` a female-to-pigtail pre-assembled cable; connect their blunt wire ends to the respective PCBs. Each harness uses one 75 mm male and one 75 mm female pigtail, the shortest available length. The battery harnesses use 2-pin connectors. Confirm connector mating, pin count, and pinout against the actual parts and PCB design data before ordering.
 
 ### Lithium-polymer battery notice and disclaimer
 
