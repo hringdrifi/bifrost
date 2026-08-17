@@ -92,19 +92,27 @@ Fill in the following before placing an order:
 | Edge / panel requirements | TBD |
 | Electrical test | TBD |
 | Assembly service | TBD |
-| Manufacturing files | TBD — Gerber archive(s) and, when applicable, BOM and pick-and-place files |
+| Manufacturing files | Use the Gerber ZIP, BOM, and pick-and-place files in the table below for the main PCBs |
 
-The PCB BOM will be added here when it is finalized.
+### Main-PCB fabrication and assembly data
 
-### PCB BOM — placeholder
+One keyboard requires one left main PCB and one right main PCB. For JLCPCB assembly, upload the matching Gerber ZIP, BOM CSV, and pick-and-place CSV for each PCB. `LCSC Part #` in the BOM is the JLCPCB/LCSC component number.
 
-| PCB | BOM file | Status |
-| --- | --- | --- |
-| Left main PCB | TBD | Not yet published |
-| Right main PCB | TBD | Not yet published |
-| Trackball PCB | TBD | Not yet published |
-| Left thumb-cluster PCB | TBD | Not yet published |
-| Right thumb-cluster PCB | TBD | Not yet published |
+| PCB | Gerber ZIP | BOM | Pick-and-place |
+| --- | --- | --- | --- |
+| Left main PCB | [`bifrost_left.zip`](../pcb/left_kicad/production/bifrost_left.zip) | [`bom.csv`](../pcb/left_kicad/production/bom.csv) | [`positions.csv`](../pcb/left_kicad/production/positions.csv) |
+| Right main PCB | [`bifrost_right.zip`](../pcb/right_kicad/production/bifrost_right.zip) | [`bom.csv`](../pcb/right_kicad/production/bom.csv) | [`positions.csv`](../pcb/right_kicad/production/positions.csv) |
+
+The following application-specific selections in the current BOM deserve particular attention:
+
+| Reference | Selected part | JLCPCB/LCSC Part # | Note |
+| --- | --- | --- | --- |
+| J1 | Korean Hroparts `TYPE-C-31-M-12` | `C165948` | USB Type-C receptacle matching the board's `HRO_TYPE-C-31-M-12` footprint |
+| L1 | Murata `LQM18FN100M00D` | `C86083` | 10 µH, 0603; nRF52840 DC/DC inductor |
+| F1 | BHFUSE `BSMD1206-100-16V` | `C883131` | 1 A hold PTC |
+| D2 | Guangdong Hottech `1N5819WS` | `C191023` | SOD-323 Schottky diode |
+
+For all other assembled components, use the exact part number in the linked BOM CSV. Switches, batteries, harnesses, and other items absent from the CSV are sourced and assembled separately.
 
 ## Switch plates
 
@@ -118,8 +126,8 @@ When ordering an aluminium-core PCB and using the aluminium face as the top surf
 ## Still to be specified
 
 - PCB order specifications listed above
-- PCB BOM and component sourcing links
-- Manufacturing exports and revision identifiers
+- Assembly data and component sourcing links for the thumb-cluster and trackball PCBs
+- Manufacturing-export revision identifiers
 
 ## Related documents
 

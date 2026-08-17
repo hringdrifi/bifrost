@@ -92,17 +92,27 @@ PicoBlade コネクタは基板上ではなく、各ハーネスの途中に着�
 | 外形・面付け条件 | TBD |
 | 電気検査 | TBD |
 | 実装サービス | TBD |
-| 製造ファイル | TBD — Gerber、必要に応じて BOM／部品位置ファイル |
+| 製造ファイル | 左右メイン基板は下表のGerber ZIP、BOM、部品位置ファイルを使用 |
 
-### PCB BOM — 未確定
+### 左右メイン基板の製造・実装データ
 
-| 基板 | BOM ファイル | 状態 |
-| --- | --- | --- |
-| 左メイン基板 | TBD | 未公開 |
-| 右メイン基板 | TBD | 未公開 |
-| トラックボール基板 | TBD | 未公開 |
-| 左親指クラスタ基板 | TBD | 未公開 |
-| 右親指クラスタ基板 | TBD | 未公開 |
+左メイン基板と右メイン基板は、それぞれ1枚ずつで1台分です。JLCPCB実装では各基板ごとに、Gerber ZIP、BOM CSV、部品位置CSVを同じ組み合わせでアップロードしてください。BOMの `LCSC Part #` はJLCPCB/LCSCの部品番号です。
+
+| 基板 | Gerber ZIP | BOM | 部品位置 |
+| --- | --- | --- | --- |
+| 左メイン基板 | [`bifrost_left.zip`](../pcb/left_kicad/production/bifrost_left.zip) | [`bom.csv`](../pcb/left_kicad/production/bom.csv) | [`positions.csv`](../pcb/left_kicad/production/positions.csv) |
+| 右メイン基板 | [`bifrost_right.zip`](../pcb/right_kicad/production/bifrost_right.zip) | [`bom.csv`](../pcb/right_kicad/production/bom.csv) | [`positions.csv`](../pcb/right_kicad/production/positions.csv) |
+
+現在のBOMにおける要確認部品は次のとおりです。
+
+| 部品 | 指定部品 | JLCPCB/LCSC Part # | 備考 |
+| --- | --- | --- | --- |
+| J1 | Korean Hroparts `TYPE-C-31-M-12` | `C165948` | 基板の `HRO_TYPE-C-31-M-12` フットプリントに対応するUSB Type-Cレセプタクル |
+| L1 | Murata `LQM18FN100M00D` | `C86083` | 10 µH、0603。nRF52840のDC/DC用 |
+| F1 | BHFUSE `BSMD1206-100-16V` | `C883131` | 1 A hold PTC |
+| D2 | Guangdong Hottech `1N5819WS` | `C191023` | SOD-323ショットキーダイオード |
+
+この表にない実装部品も、必ず上記のBOM CSVに記載された部品番号を使用してください。スイッチ、バッテリー、ハーネスなど、BOM CSVに含まれない部品は別途調達・組み立てします。
 
 ## プレート製造
 
@@ -116,8 +126,8 @@ PicoBlade コネクタは基板上ではなく、各ハーネスの途中に着�
 ## 今後追記する内容
 
 - PCB の詳細な注文条件
-- PCB BOM と部品購入リンク
-- 製造データとリビジョン番号
+- 親指クラスタ・トラックボール基板の実装データと部品購入リンク
+- 製造データのリビジョン番号
 
 ## 関連資料
 
