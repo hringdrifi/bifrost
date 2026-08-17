@@ -7899,7 +7899,7 @@
 		(uuid "10f6c798-369f-4324-ba8f-27fe3c762b89")
 	)
 	(junction
-		(at 147.32 133.35)
+		(at 149.86 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "159dc368-2079-4cfe-9ac2-7938109028e3")
@@ -7911,16 +7911,10 @@
 		(uuid "2132e472-fe72-41a7-81bd-81cb3d9929a6")
 	)
 	(junction
-		(at 162.56 129.54)
+		(at 165.1 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c0287ab-bd71-49d6-997b-03060724b0f8")
-	)
-	(junction
-		(at 187.96 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44041d19-2a2d-4116-b518-4331a3d43eba")
 	)
 	(junction
 		(at 91.44 45.72)
@@ -8007,7 +8001,7 @@
 		(uuid "b0fecb0c-5c93-4c32-8356-b1e10a621a9a")
 	)
 	(junction
-		(at 139.7 128.27)
+		(at 142.24 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b96a5e71-a8a7-4631-9b8b-60ec23df55d3")
@@ -8055,7 +8049,7 @@
 		(uuid "fae1d633-c8ea-47e8-9fb1-ca7e811c42fb")
 	)
 	(junction
-		(at 170.18 125.73)
+		(at 172.72 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbe11463-c33e-4f80-8613-9784b193b8a9")
@@ -8075,7 +8069,7 @@
 		(uuid "0ce02506-35a1-4cf7-b51f-5234f4bc7162")
 	)
 	(no_connect
-		(at 167.64 120.65)
+		(at 170.18 120.65)
 		(uuid "1470f94d-257a-415e-88a9-095fcad617eb")
 	)
 	(no_connect
@@ -8362,7 +8356,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 128.27) (xy 129.54 128.27)
+			(xy 134.62 128.27) (xy 132.08 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8392,7 +8386,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 123.19) (xy 170.18 125.73)
+			(xy 172.72 123.19) (xy 172.72 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8412,7 +8406,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 129.54) (xy 172.72 129.54)
+			(xy 165.1 129.54) (xy 175.26 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8502,7 +8496,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 133.35) (xy 147.32 133.35)
+			(xy 142.24 133.35) (xy 149.86 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8522,7 +8516,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 128.27) (xy 172.72 129.54)
+			(xy 175.26 128.27) (xy 175.26 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8692,7 +8686,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 125.73) (xy 167.64 125.73)
+			(xy 172.72 125.73) (xy 170.18 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8812,7 +8806,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 128.27) (xy 139.7 128.27)
+			(xy 139.7 128.27) (xy 142.24 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8932,7 +8926,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 125.73) (xy 172.72 125.73)
+			(xy 172.72 125.73) (xy 175.26 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9042,7 +9036,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 123.19) (xy 157.48 123.19)
+			(xy 149.86 123.19) (xy 160.02 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9102,7 +9096,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 128.27) (xy 129.54 133.35)
+			(xy 132.08 128.27) (xy 132.08 133.35)
 		)
 		(stroke
 			(width 0)
@@ -9112,7 +9106,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 128.27) (xy 139.7 123.19)
+			(xy 142.24 128.27) (xy 142.24 123.19)
 		)
 		(stroke
 			(width 0)
@@ -10838,6 +10832,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C23733"
+			(at 127 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7258c7ba-7c58-4dc5-a328-09d438b8c2df")
 		)
@@ -10908,6 +10913,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 160.02 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25905"
+			(at 160.02 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10996,6 +11012,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25100"
+			(at 34.29 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cd5a1ff1-4fad-4f6d-acc3-d044515c4c97")
 		)
@@ -11017,7 +11044,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11068,6 +11095,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 259.08 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 259.08 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11170,6 +11208,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C88970"
+			(at 147.32 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e8f8c0d7-e23c-4b34-8c62-c5e4a9a90076")
 		)
@@ -11187,7 +11236,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 147.32 133.35 180)
+		(at 149.86 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11198,7 +11247,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a8a8725-7f83-4e32-ad1f-4540fa5b3ca1")
 		(property "Reference" "#PWR033"
-			(at 147.32 129.54 0)
+			(at 149.86 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11209,7 +11258,7 @@
 			)
 		)
 		(property "Value" "+VSW"
-			(at 147.32 138.43 0)
+			(at 149.86 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11219,7 +11268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 133.35 0)
+			(at 149.86 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11230,7 +11279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 133.35 0)
+			(at 149.86 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11241,7 +11290,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 147.32 133.35 0)
+			(at 149.86 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11351,6 +11400,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C15525"
+			(at 69.85 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c3f5795-7cf1-4217-85e8-4739d4d4eee7")
 		)
@@ -11377,7 +11437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cc075bc-6234-4acc-9774-ba8a8bd65e11")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 165.1 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11436,7 +11496,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11454,7 +11514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d28f6c2-e11b-4eba-b150-5626f843669f")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 259.08 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11514,7 +11574,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -11600,7 +11660,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 133.35 0)
+		(at 132.08 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11611,7 +11671,7 @@
 		(fields_autoplaced yes)
 		(uuid "13414f82-11a2-48a2-8bb4-41a8bd648db5")
 		(property "Reference" "#PWR028"
-			(at 129.54 139.7 0)
+			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11622,7 +11682,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 138.43 0)
+			(at 132.08 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11632,7 +11692,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 133.35 0)
+			(at 132.08 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11643,7 +11703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 133.35 0)
+			(at 132.08 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11654,7 +11714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 133.35 0)
+			(at 132.08 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11687,7 +11747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1371e219-a47b-4b10-9514-ef0f6fce9f91")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 97.79 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11746,7 +11806,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12052,6 +12112,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C15525"
+			(at 49.53 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fc15c314-d05b-4824-9200-f7c226fc6112")
 		)
@@ -12131,6 +12202,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25867"
+			(at 129.54 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "49f147c2-7db6-4a4a-b4fe-b2ba669c25ff")
 		)
@@ -12158,7 +12240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2689f807-9fbe-470e-8119-b1ba8e636e6d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 259.08 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12219,7 +12301,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -12280,6 +12362,17 @@
 			)
 		)
 		(property "Description" "RGB LED, red/anode/green/blue"
+			(at 259.08 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C375572"
 			(at 259.08 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12369,6 +12462,17 @@
 		)
 		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
 			(at 97.79 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C393942"
+			(at 97.79 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12495,7 +12599,7 @@
 				)
 			)
 		)
-		(property "Value" "4k"
+		(property "Value" "3.3k"
 			(at 160.02 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12538,6 +12642,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25890"
+			(at 160.02 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fb1e1716-6a42-4b63-a7de-e7fe6415244a")
 		)
@@ -12555,18 +12670,18 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 177.8 125.73 0)
+		(at 180.34 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34a1270f-a32e-4807-8d55-ba4fd877e618")
 		(property "Reference" "J2"
-			(at 180.34 125.7299 0)
+			(at 182.88 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12577,7 +12692,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 180.34 128.2699 0)
+			(at 182.88 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12588,7 +12703,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
-			(at 177.8 125.73 0)
+			(at 180.34 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12599,7 +12714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 125.73 0)
+			(at 180.34 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12610,7 +12725,18 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 177.8 125.73 0)
+			(at 180.34 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 180.34 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12700,6 +12826,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C88970"
+			(at 167.64 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dc5fa8a4-8dd5-4c03-b122-432cb6fadfe0")
 		)
@@ -12726,7 +12863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "399e8490-79a8-4058-b20e-f666368de270")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 251.46 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12779,6 +12916,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25900"
+			(at 251.46 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dc15997b-7318-4379-8429-1c02c1dc649a")
 		)
@@ -12788,7 +12936,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12851,6 +12999,17 @@
 			)
 		)
 		(property "Description" "Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD, -40 to +85 degree Celsius, TSOT-23-6"
+			(at 147.32 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C12044"
 			(at 147.32 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12976,7 +13135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "483b3c6d-db73-4e06-9473-62568ae0ce7a")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 95.25 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13028,6 +13187,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1547"
+			(at 95.25 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "69e7ba4e-bfd7-4fc4-b315-8682f6c1447b")
 		)
@@ -13037,7 +13207,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13055,7 +13225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a4bbfad-676f-4ced-b037-c5fb1c4f3518")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 196.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13115,7 +13285,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13431,88 +13601,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 187.96 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f88e4ef-bb34-40e0-b4c2-b1dc4ce776d9")
-		(property "Reference" "C10"
-			(at 190.5 36.8362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 190.5 39.3762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 187.96 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 187.96 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f507bfd4-eba2-45b8-8c4f-11c501f7605b")
-		)
-		(pin "2"
-			(uuid "b21af1e8-59a3-4871-9b4b-630a3c377ffd")
-		)
-		(instances
-			(project "bifrost_left"
-				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 165.1 95.25 0)
 		(unit 1)
@@ -13524,7 +13612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55b60a33-5e98-4b93-ad75-7b71faf5703c")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13584,86 +13672,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 187.96 33.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5dc231aa-9932-4d93-b510-761ad43f59b4")
-		(property "Reference" "R8"
-			(at 187.96 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 189.992 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 187.96 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 187.96 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ef0a6707-49d0-4430-b142-44af02048642")
-		)
-		(pin "1"
-			(uuid "6f2846f9-5d48-454c-a0b2-21de24dd924c")
-		)
-		(instances
-			(project "bifrost_left"
-				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R8")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13759,7 +13768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "649302b6-7142-4d87-bad1-db9ecfa63402")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 266.7 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13819,7 +13828,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -13831,7 +13840,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13879,6 +13888,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 74.93 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 74.93 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -14067,7 +14087,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14115,6 +14135,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 52.07 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 52.07 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -14220,7 +14251,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 144.78 128.27 0)
+		(at 147.32 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14231,7 +14262,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f503a84-8106-4b19-9b03-9d3c49b3663d")
 		(property "Reference" "Q1"
-			(at 151.13 126.9999 0)
+			(at 153.67 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14242,7 +14273,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 151.13 129.5399 0)
+			(at 153.67 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14253,7 +14284,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 149.86 130.175 0)
+			(at 152.4 130.175 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14266,7 +14297,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 149.86 132.08 0)
+			(at 152.4 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14278,7 +14309,18 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 144.78 128.27 0)
+			(at 147.32 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C15127"
+			(at 147.32 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14317,7 +14359,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7727b7c7-86c2-4a0d-bc2b-bcdf8339dc60")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 95.25 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14369,6 +14411,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1547"
+			(at 95.25 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "19ab981c-052d-4e39-9fcd-0d15dcdb895f")
 		)
@@ -14378,7 +14431,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -15011,7 +15064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7eb68d6d-58eb-4338-8df6-4020cba439bb")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 251.46 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15064,6 +15117,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25900"
+			(at 251.46 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d360ad18-e621-4d46-907a-2c42e40b9a89")
 		)
@@ -15073,7 +15137,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -15313,7 +15377,7 @@
 	(symbol
 		(lib_name "GND_10")
 		(lib_id "power:GND")
-		(at 162.56 129.54 0)
+		(at 165.1 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15323,8 +15387,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81c4dde1-c2b2-4b08-83c5-6a67217c357a")
-		(property "Reference" "#PWR039"
-			(at 162.56 135.89 0)
+		(property "Reference" "#PWR041"
+			(at 165.1 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15335,7 +15399,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 134.62 0)
+			(at 165.1 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15345,7 +15409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 129.54 0)
+			(at 165.1 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15356,7 +15420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 129.54 0)
+			(at 165.1 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15367,7 +15431,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 129.54 0)
+			(at 165.1 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15383,7 +15447,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15478,7 +15542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8376269f-8379-4f9f-9c1b-16c3e1d1cf28")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 247.65 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15544,6 +15608,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25744"
+			(at 245.11 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8fd72377-641c-46ce-9445-c942d2b9d1a7")
 		)
@@ -15553,7 +15628,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -15561,7 +15636,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 134.62 128.27 90)
+		(at 137.16 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15571,7 +15646,7 @@
 		(dnp no)
 		(uuid "8c5ecef5-9dc1-4819-87fe-16e179b3fecf")
 		(property "Reference" "R4"
-			(at 134.62 128.27 90)
+			(at 137.16 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15581,7 +15656,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 134.62 125.73 90)
+			(at 137.16 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15591,7 +15666,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 134.62 128.27 0)
+			(at 137.16 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15602,7 +15677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 128.27 0)
+			(at 137.16 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15613,7 +15688,18 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 134.62 128.27 0)
+			(at 137.16 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25741"
+			(at 137.16 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15692,6 +15778,17 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
+			(at 180.34 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C883131"
 			(at 180.34 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -15865,6 +15962,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C8545"
+			(at 256.54 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c78fbe4-7cc3-41cc-a103-c0f6fc2d727e")
 		)
@@ -15896,7 +16004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9633cbdb-09b3-4e87-9599-3d53782492ae")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 247.65 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -15957,7 +16065,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -15975,7 +16083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97607314-5b85-4c39-b360-c1e116bc71dc")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 105.41 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16036,7 +16144,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -16098,6 +16206,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 74.93 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C15525"
 			(at 74.93 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -16187,6 +16306,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25100"
+			(at 34.29 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d6dea82d-66cc-435d-a26c-11195dc53199")
 		)
@@ -16213,7 +16343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9af58775-8b76-4654-990e-8f437c3cfcd5")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 101.6 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16224,7 +16354,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 106.68 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16268,6 +16398,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 104.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5e3e52fd-7dac-48fa-a436-b2948e35734d")
 		)
@@ -16277,7 +16418,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16285,7 +16426,7 @@
 	)
 	(symbol
 		(lib_id "local:SW_SPDT_Shielded")
-		(at 162.56 123.19 0)
+		(at 165.1 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16296,7 +16437,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b417ac9-81fa-4e68-95e0-6cc8beffcff7")
 		(property "Reference" "S1"
-			(at 162.56 114.3 0)
+			(at 165.1 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16306,7 +16447,7 @@
 			)
 		)
 		(property "Value" "MSK12C02-HB"
-			(at 162.56 116.84 0)
+			(at 165.1 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16316,7 +16457,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPDT_Shouhan_MSK12C02"
-			(at 162.56 123.19 0)
+			(at 165.1 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16327,7 +16468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 130.81 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16338,7 +16479,18 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 162.56 123.19 0)
+			(at 165.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C431541"
+			(at 165.1 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16380,7 +16532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0d0c050-d2fc-4321-881b-4b1d60c37288")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 140.97 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16435,6 +16587,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C151996"
+			(at 142.24 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c4417262-494d-44dd-9cb6-a64c25a4c273")
 		)
@@ -16444,7 +16607,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -16540,7 +16703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a438e18a-8c1c-4c87-9be4-dc8ab03c03f5")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 257.175 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16606,6 +16769,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25744"
+			(at 259.08 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25542bb1-46f7-495a-a0a5-3f40cd558c07")
 		)
@@ -16615,7 +16789,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -16627,7 +16801,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16685,6 +16859,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 30.48 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "09e4e088-0123-4bae-9bf3-35fc654ac910")
 		)
@@ -16702,7 +16887,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 170.18 123.19 0)
+		(at 172.72 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16713,7 +16898,7 @@
 		(fields_autoplaced yes)
 		(uuid "a93b7d3d-fe6a-44c0-b78a-e111e7452e21")
 		(property "Reference" "#PWR042"
-			(at 170.18 127 0)
+			(at 172.72 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16724,7 +16909,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 172.72 121.9199 0)
+			(at 175.26 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16735,7 +16920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 123.19 0)
+			(at 172.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16746,7 +16931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 123.19 0)
+			(at 172.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16757,7 +16942,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 123.19 0)
+			(at 172.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16785,7 +16970,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16843,6 +17028,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 30.48 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "629bef54-fff4-41f7-8365-26e2b60aa9c4")
 		)
@@ -16864,7 +17060,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16922,6 +17118,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 30.48 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "74585ddd-f554-4158-8214-f175a06c3c10")
 		)
@@ -16943,7 +17150,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16991,6 +17198,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 30.48 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 30.48 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -17083,6 +17301,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C15525"
+			(at 165.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4151eb17-63e4-482a-98f4-999c993fa67a")
 		)
@@ -17159,6 +17388,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 264.16 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C15127"
 			(at 264.16 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17266,84 +17506,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 187.96 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af9ca195-7eaf-446b-9e17-552300ed1f90")
-		(property "Reference" "#PWR044"
-			(at 187.96 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a67e8da0-eaf4-4e54-85d2-6af9137e8b9d")
-		)
-		(instances
-			(project "bifrost_left"
-				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 251.46 48.26 90)
 		(unit 1)
@@ -17354,7 +17516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5f29d6c-73d8-4f25-a440-e379ff5c5450")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 251.46 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17407,6 +17569,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C11702"
+			(at 251.46 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "edc430e5-05a7-4875-9406-31e284262285")
 		)
@@ -17416,7 +17589,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -17479,6 +17652,17 @@
 			)
 		)
 		(property "Description" "Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module"
+			(at 57.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C5118826"
 			(at 57.15 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -17686,7 +17870,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 139.7 130.81 90)
+		(at 142.24 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17695,8 +17879,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b757189a-83a9-4c1a-8658-885b474efa76")
-		(property "Reference" "D1"
-			(at 140.97 130.81 90)
+		(property "Reference" "D2"
+			(at 143.51 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17707,7 +17891,7 @@
 			)
 		)
 		(property "Value" "1N5819WS"
-			(at 138.43 130.81 90)
+			(at 140.97 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17718,7 +17902,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 139.7 130.81 90)
+			(at 142.24 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17729,7 +17913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 130.81 90)
+			(at 142.24 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17740,7 +17924,18 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 139.7 130.81 0)
+			(at 142.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C191023"
+			(at 142.24 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17759,7 +17954,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -17788,7 +17983,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 154.94 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17822,6 +18017,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 152.4 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
 			(at 152.4 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -17914,6 +18120,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C7420376"
+			(at 196.85 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "69ef33df-7745-4173-94e6-7813ce8ada81")
 		)
@@ -17974,7 +18191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 62.23 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -17997,6 +18214,17 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 62.23 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C86083"
 			(at 62.23 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -18034,7 +18262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf0527cd-9f2d-40a6-a3fc-c067860ca2d7")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 196.85 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -18094,7 +18322,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -18164,6 +18392,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25905"
+			(at 160.02 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cd66c47e-a753-4b2f-a743-66e7403463bb")
 		)
@@ -18185,7 +18424,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18243,6 +18482,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 52.07 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1f9bba4-0f9b-42e0-9b92-e26772620773")
 		)
@@ -18264,7 +18514,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18322,6 +18572,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 74.93 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e9b727a8-6d81-4448-b4b5-5d7f788f55d8")
 		)
@@ -18343,7 +18604,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18401,6 +18662,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 97.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f154d0c6-7307-4983-9f60-a67e2be4dbbf")
 		)
@@ -18422,7 +18694,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18480,6 +18752,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 120.65 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab9257f5-8872-4399-a9e2-f7da700f634a")
 		)
@@ -18501,7 +18784,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18559,6 +18842,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 143.51 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1638d27b-017c-4ac6-9040-594d983e3977")
 		)
@@ -18580,7 +18874,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18628,6 +18922,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 143.51 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 143.51 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -18718,6 +19023,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C32346"
+			(at 91.44 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "375e5d94-2ccf-42db-93be-cd8322bacf18")
 		)
@@ -18739,7 +19055,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18797,6 +19113,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 97.79 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "09dda29a-6719-486e-9b47-41fabc73b47a")
 		)
@@ -18818,7 +19145,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18876,6 +19203,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 120.65 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6cbdd0e2-3da6-4cac-9a46-5f7d8b59cfe6")
 		)
@@ -18897,7 +19235,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18955,6 +19293,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 52.07 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15bf48e7-de82-48d4-8123-a2dd40717ad2")
 		)
@@ -18976,7 +19325,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19034,6 +19383,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 74.93 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c6ab7fc-6965-4e17-8cb3-67a9000fb14f")
 		)
@@ -19051,7 +19411,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 139.7 123.19 0)
+		(at 142.24 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19062,7 +19422,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1024321-cd04-4b97-931f-9bc2dd06e9c9")
 		(property "Reference" "#PWR030"
-			(at 139.7 127 0)
+			(at 142.24 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19073,7 +19433,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 139.7 118.11 0)
+			(at 142.24 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19083,7 +19443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 123.19 0)
+			(at 142.24 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19094,7 +19454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 123.19 0)
+			(at 142.24 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19105,7 +19465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 139.7 123.19 0)
+			(at 142.24 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19133,7 +19493,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19191,6 +19551,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 74.93 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e82e19e-9382-4d29-9adc-6e5dd2909644")
 		)
@@ -19212,7 +19583,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19270,6 +19641,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 52.07 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92da29ef-fdec-4b4c-8af8-092759e62d00")
 		)
@@ -19291,7 +19673,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19349,6 +19731,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 120.65 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a68a21c-b8c7-4b81-a102-85cfdfaf4288")
 		)
@@ -19370,7 +19763,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19428,6 +19821,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 97.79 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "43882bad-7ccf-4ec6-9f97-b8517b45bfc4")
 		)
@@ -19449,7 +19853,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19497,6 +19901,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 143.51 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 143.51 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -19919,7 +20334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef418a7d-2d5e-4175-8e53-a548aaad6cd6")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 241.3 102.235 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19929,7 +20344,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100"
 			(at 241.3 104.775 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19983,6 +20398,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25076"
+			(at 241.3 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "812d2b65-2a45-41b0-83ae-4b93c5d398dd")
 		)
@@ -19992,7 +20418,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -20053,6 +20479,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 142.24 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C51911914"
 			(at 142.24 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -20188,6 +20625,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C19189741"
 			(at 134.62 100.33 0)
 			(hide yes)
 			(show_name no)
