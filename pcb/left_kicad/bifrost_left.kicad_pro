@@ -138,11 +138,19 @@
           ""
         ],
         [
-          "items_not_allowed|217180750|71228125|c753178d-512b-4467-a603-f60399be89dc|00000000-0000-0000-0000-000000000000",
+          "npth_inside_courtyard|99218750|59531250|60ed8fb1-3ab1-2e7f-841f-b518c0c110bd|3c048147-3088-4a65-96ef-5d81acb1ffd0",
           ""
         ],
         [
-          "npth_inside_courtyard|99218750|59531250|60ed8fb1-3ab1-2e7f-841f-b518c0c110bd|3c048147-3088-4a65-96ef-5d81acb1ffd0",
+          "unconnected_items|102065884|56572964|F.Cu|4|8970fd41-2bf1-0a58-0b29-ccc358f2b78e|436cc8f5-f9f7-0a13-1ce7-bab5c58f5c63",
+          ""
+        ],
+        [
+          "unconnected_items|103112000|57623125|F.Cu|4|1632f703-5e4b-4609-8ed5-9b87a99d525a|84e76b8b-ea2e-4283-a7da-c6f8c745f8ff",
+          ""
+        ],
+        [
+          "unconnected_items|110655186|56569552|F.Cu|4|3c7985be-5a84-06b6-0800-4f0d49347f94|eae8ada0-01a6-03e4-00cb-f8033918ddc9",
           ""
         ]
       ],

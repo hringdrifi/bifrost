@@ -36,6 +36,8 @@ The case and four switch plates are provided as STEP files in [`case/`](../case/
 | Right main PCB–right thumb-cluster PCB wire harness | Five-conductor; inline connection between 75 mm male and female PicoBlade (1.25 mm pitch, 5 pin) pigtails | 1 | Molex | `2181110500` + `2181120500` |
 | Right main PCB–trackball PCB wire harness | Six-conductor; inline connection between 75 mm male and female PicoBlade (1.25 mm pitch, 6 pin) pigtails | 1 | Molex | `2181110600` + `2181120600` |
 
+> Direct contact between aluminium plates and brass screws or female-to-female spacers can accelerate corrosion of the aluminium if moisture or salt is present. This is not normally significant in a dry indoor environment, but use stainless-steel fasteners where corrosion resistance is a priority.
+
 Place the PicoBlade connector in each harness as an inline disconnect, not on either PCB. `218111` is a male-to-pigtail and `218112` a female-to-pigtail pre-assembled cable; connect their blunt wire ends to the respective PCBs. Each harness uses one 75 mm male and one 75 mm female pigtail, the shortest available length. The battery harnesses use 2-pin connectors. Confirm connector mating, pin count, and pinout against the actual parts and PCB design data before ordering.
 
 ### Lithium-polymer battery notice and disclaimer
