@@ -1905,7 +1905,7 @@
 	)
 	(global_label "RGB"
 		(shape output)
-		(at 76.2 78.74 180)
+		(at 76.2 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1915,7 +1915,7 @@
 		)
 		(uuid "9d985108-dc96-40c1-a4e9-cfd555371851")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.4048 78.74 0)
+			(at 69.4048 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2319,7 +2319,7 @@
 	(symbol
 		(lib_name "GND_11")
 		(lib_id "power:GND")
-		(at 76.2 81.28 270)
+		(at 76.2 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2330,7 +2330,7 @@
 		(fields_autoplaced yes)
 		(uuid "404aad50-d7c0-4f68-ad72-24c4a2ee2aad")
 		(property "Reference" "#PWR02"
-			(at 69.85 81.28 0)
+			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2341,7 +2341,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 81.2799 90)
+			(at 73.66 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2352,7 +2352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 81.28 0)
+			(at 76.2 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2363,7 +2363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 81.28 0)
+			(at 76.2 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2374,7 +2374,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 81.28 0)
+			(at 76.2 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

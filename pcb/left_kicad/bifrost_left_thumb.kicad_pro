@@ -78,10 +78,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|85366871|63645802|dcebdb45-f1f7-4086-b83d-e67ad3ae19d3|33756687-38fa-45b1-b571-a6d9cbc3b7b7",
-          ""
-        ],
-        [
           "clearance|93123651|56457337|85533622-00cd-4a5c-affa-ae86e6ee8b97|33756687-38fa-45b1-b571-a6d9cbc3b7b7",
           ""
         ],

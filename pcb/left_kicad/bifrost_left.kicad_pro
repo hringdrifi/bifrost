@@ -142,15 +142,7 @@
           ""
         ],
         [
-          "unconnected_items|102065884|56572964|F.Cu|4|8970fd41-2bf1-0a58-0b29-ccc358f2b78e|436cc8f5-f9f7-0a13-1ce7-bab5c58f5c63",
-          ""
-        ],
-        [
           "unconnected_items|103112000|57623125|F.Cu|4|1632f703-5e4b-4609-8ed5-9b87a99d525a|84e76b8b-ea2e-4283-a7da-c6f8c745f8ff",
-          ""
-        ],
-        [
-          "unconnected_items|110655186|56569552|F.Cu|4|3c7985be-5a84-06b6-0800-4f0d49347f94|eae8ada0-01a6-03e4-00cb-f8033918ddc9",
           ""
         ]
       ],
@@ -915,7 +907,7 @@
         "uuid": "e7e89169-ab7b-68cd-1b0e-3f8776099a22"
       }
     ],
-    "used_designators": "T1,#PWR1-61,C1-14,J1-5,R1-21,TS1,U1-4,Y1,X1,BL1-22,SW1-24,D1-3,H1-4,CHG1,L1-5,F1,LED1-4,Q1-3,SS1,S1,2U1",
+    "used_designators": "T1,#PWR1-61,C1-14,J1-5,R1-21,TS1,U1-4,Y1,X1,BL1-22,SW1-24,D1-3,H1-4,CHG1,L1-5,F1,LED1-4,Q1-3,SS1,S1-2,2U1,TP1-2",
     "variants": []
   },
   "sheets": [

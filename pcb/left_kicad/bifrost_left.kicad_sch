@@ -219,6 +219,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -8101,10 +8224,6 @@
 		(uuid "8ef2f715-e1bd-492c-b71e-2209ffef34ec")
 	)
 	(no_connect
-		(at 36.83 38.1)
-		(uuid "c539bcb7-b4da-4969-be21-76088c5cd193")
-	)
-	(no_connect
 		(at 77.47 50.8)
 		(uuid "ca845b09-ef02-4847-90df-ecb5acc89f94")
 	)
@@ -8119,10 +8238,6 @@
 	(no_connect
 		(at 77.47 106.68)
 		(uuid "e0948a55-949f-4210-b1c7-eec1a8e2474f")
-	)
-	(no_connect
-		(at 36.83 35.56)
-		(uuid "fe71e520-74e7-46e6-8cda-2933956e41f5")
 	)
 	(wire
 		(pts
@@ -9760,7 +9875,7 @@
 	)
 	(global_label "RGB"
 		(shape input)
-		(at 254 129.54 180)
+		(at 254 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9770,7 +9885,7 @@
 		)
 		(uuid "48113084-c569-41ad-9b74-5afef689dd61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.2048 129.54 0)
+			(at 247.2048 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11033,6 +11148,84 @@
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 36.83 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "077f0958-0a65-4669-921f-6dc00ad71379")
+		(property "Reference" "TP2"
+			(at 35.56 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SWDCLK"
+			(at 35.56 39.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 41.91 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 36.83 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4deee29d-6665-464f-a1bd-1d4ab7408de1")
+		)
+		(instances
+			(project "bifrost_left"
+				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -15994,7 +16187,7 @@
 	(symbol
 		(lib_name "GND_11")
 		(lib_id "power:GND")
-		(at 254 132.08 270)
+		(at 254 129.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16005,7 +16198,7 @@
 		(fields_autoplaced yes)
 		(uuid "9633cbdb-09b3-4e87-9599-3d53782492ae")
 		(property "Reference" "#PWR046"
-			(at 247.65 132.08 0)
+			(at 247.65 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16016,7 +16209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 132.0799 90)
+			(at 251.46 129.5399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16027,7 +16220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 132.08 0)
+			(at 254 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16038,7 +16231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 132.08 0)
+			(at 254 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16049,7 +16242,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 132.08 0)
+			(at 254 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19662,6 +19855,84 @@
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 36.83 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e40eda17-6ea2-4545-8570-c6f88583a3a2")
+		(property "Reference" "TP1"
+			(at 35.56 33.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 35.56 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 31.75 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 36.83 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "477588a7-9130-4f73-8d80-f905b390474b")
+		)
+		(instances
+			(project "bifrost_left"
+				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
+					(reference "TP1")
 					(unit 1)
 				)
 			)

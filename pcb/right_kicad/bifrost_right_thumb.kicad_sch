@@ -1766,7 +1766,7 @@
 	)
 	(global_label "RGB"
 		(shape output)
-		(at 127 129.54 180)
+		(at 127 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1776,7 +1776,7 @@
 		)
 		(uuid "ffabdb9f-b640-4a8e-88a9-8e6279ed02d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.2048 129.54 0)
+			(at 120.2048 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2617,7 +2617,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 132.08 270)
+		(at 127 129.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2628,7 +2628,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba8cf73b-4611-4c1d-9f7d-dbe2bce7ffac")
 		(property "Reference" "#PWR01"
-			(at 120.65 132.08 0)
+			(at 120.65 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2639,7 +2639,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 132.0799 90)
+			(at 123.19 129.5399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2650,7 +2650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 132.08 0)
+			(at 127 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,7 +2661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 132.08 0)
+			(at 127 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2672,7 +2672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 132.08 0)
+			(at 127 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
