@@ -1,5 +1,4 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "Smidr") (type "KiCad") (uri "${KIPRJMOD}/smidr.pretty") (options "") (descr "Smiðr generated footprints"))
-	(lib (name "easyeda2kicad") (type "KiCad") (uri "C:/Users/ito/Documents/KiCad/easyeda2kicad/easyeda2kicad.pretty") (options "") (descr ""))
 )
