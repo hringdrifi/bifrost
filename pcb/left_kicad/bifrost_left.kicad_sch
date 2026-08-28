@@ -12352,7 +12352,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1k"
 			(at 129.54 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12395,7 +12395,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25867"
+		(property "JLCPCB Part #" "C11702"
 			(at 129.54 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -19216,7 +19216,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C32346"
+		(property "JLCPCB Part #" "C479190"
 			(at 91.44 41.91 90)
 			(hide yes)
 			(show_name no)

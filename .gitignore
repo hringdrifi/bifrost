@@ -18,6 +18,12 @@
 # PMW3610 model source and license are not yet confirmed.
 /pcb/right_kicad/3dmodels/PMW3610.step
 
+# Third-party component models kept locally for KiCad 3D rendering only.
+/pcb/**/3dmodels/9774030243R.stp
+/pcb/**/3dmodels/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step
+/pcb/**/3dmodels/SW_SPDT_Shouhan_MSK12C02.step
+/pcb/**/3dmodels/SW_SMD_2P-TS24CA.step
+
 # OS metadata
 .DS_Store
 Thumbs.db

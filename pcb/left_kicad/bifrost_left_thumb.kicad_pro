@@ -707,10 +707,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "JLCPCB Part #",
           "name": "JLCPCB Part #",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

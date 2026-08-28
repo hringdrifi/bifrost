@@ -1871,9 +1871,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36e81335-4028-4f2e-ba97-43a7f20dd215")
@@ -1978,7 +1978,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "WS2812C-2020"
 			(at 140.97 173.9198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2013,6 +2013,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 127 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C55109522"
 			(at 127 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -2760,6 +2771,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525 "
+			(at 152.4 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "151c4dc2-5483-4dc7-8528-63258d26eed9")
 		)
@@ -2842,6 +2864,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525 "
+			(at 162.56 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2075a2e6-c587-4ee5-82f4-ac83b4452c1d")
 		)
@@ -2879,7 +2912,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "WS2812C-2020"
 			(at 176.53 173.9198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2914,6 +2947,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 162.56 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C55109522"
 			(at 162.56 177.8 0)
 			(hide yes)
 			(show_name no)

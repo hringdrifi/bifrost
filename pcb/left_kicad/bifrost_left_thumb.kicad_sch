@@ -2114,6 +2114,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C55109522"
+			(at 111.76 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d0fb701-8a74-43b7-a662-21aebffa1063")
 		)
@@ -2141,9 +2152,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c3d043e-8306-4f1a-ad74-f1b085298d43")
@@ -2453,6 +2464,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 121.92 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1525 "
 			(at 121.92 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -3171,6 +3193,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525 "
+			(at 111.76 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "54b98ba8-cc35-4968-97e6-e45ef62889b5")
 		)
@@ -3330,6 +3363,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525 "
+			(at 101.6 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d5b5f0c-2f3f-40b5-adbc-2a991115c456")
 		)
@@ -3402,6 +3446,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 147.32 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C55109522"
 			(at 147.32 127 0)
 			(hide yes)
 			(show_name no)
@@ -3644,6 +3699,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 76.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C55109522"
 			(at 76.2 127 0)
 			(hide yes)
 			(show_name no)
