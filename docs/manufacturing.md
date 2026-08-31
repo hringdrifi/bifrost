@@ -22,7 +22,7 @@ The case and four switch plates are provided as STEP files in [`case/`](../case/
 | --- | --- | ---: | --- | --- |
 | Truss-head screw | M2 × 4 mm | 22 | [Wilco](https://wilco.jp/) | `FT-0204EB` |
 | Screw | M1.4 × 5 mm | 3 | [Wilco](https://wilco.jp/) | `F-1450N-01` |
-| Round female-to-female spacer | M2 × 5 mm | 8 | [Hirosugi](https://hirosugi.co.jp/) ([web shop](https://www.hirosugi-net.co.jp/)) | `ARB-2005E` |
+| Aluminium round female-to-female spacer | M2 × 5 mm | 8 | [Hirosugi](https://hirosugi.co.jp/) ([web shop](https://www.hirosugi-net.co.jp/)) | `ARL-2005E` |
 | Nut | M2 | 2 | [Wilco](https://wilco.jp/) | `FNT-02N` |
 | Thin nut | M1.4 | 3 | [Wilco](https://wilco.jp/) | `UNTD-014` |
 | Bumpon / rubber foot | Ø7.9 × H2.2 mm | 8 | [Amazon](https://www.amazon.co.jp/) | `SJ5302` or `CS-01` |
@@ -36,7 +36,7 @@ The case and four switch plates are provided as STEP files in [`case/`](../case/
 | Right main PCB–right thumb-cluster PCB wire harness | Five-conductor; inline connection between 75 mm male and female PicoBlade (1.25 mm pitch, 5 pin) pigtails | 1 | Molex | `2181110500` + `2181120500` |
 | Right main PCB–trackball PCB wire harness | Six-conductor; inline connection between 75 mm male and female PicoBlade (1.25 mm pitch, 6 pin) pigtails | 1 | Molex | `2181110600` + `2181120600` |
 
-> Direct contact between aluminium plates and brass screws or female-to-female spacers can accelerate corrosion of the aluminium if moisture or salt is present. This is not normally significant in a dry indoor environment, but use stainless-steel fasteners where corrosion resistance is a priority.
+> Direct contact between aluminium plates and brass screws can accelerate corrosion of the aluminium if moisture or salt is present. This is not normally significant in a dry indoor environment, but use stainless-steel fasteners where corrosion resistance is a priority.
 
 Place the PicoBlade connector in each harness as an inline disconnect, not on either PCB. `218111` is a male-to-pigtail and `218112` a female-to-pigtail pre-assembled cable; connect their blunt wire ends to the respective PCBs. Each harness uses one 75 mm male and one 75 mm female pigtail, the shortest available length. The battery harnesses use 2-pin connectors. Confirm connector mating, pin count, and pinout against the actual parts and PCB design data before ordering.
 
