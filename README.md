@@ -25,7 +25,7 @@ The design data in `case/` and `pcb/` is licensed under the [CERN Open Hardware 
 
 This license permits use, modification, manufacture, and sale of the design data and products made from it. Modified design data does not need to be published, but applicable notices must be retained and modifications must be documented. The design data and any resulting products are provided without warranty.
 
-The CERN-OHL-P-2.0 license applies to the contents of `case/` and `pcb/`. Firmware will be released under the dual [MIT](https://spdx.org/licenses/MIT.html) OR [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) software license.
+The CERN-OHL-P-2.0 license applies to the contents of `case/` and `pcb/`. Firmware is licensed under the [MIT License](https://spdx.org/licenses/MIT.html).
 
 ## Disclaimer
 
