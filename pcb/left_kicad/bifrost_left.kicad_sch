@@ -9537,7 +9537,7 @@
 			)
 		)
 	)
-	(global_label "PIN_11"
+	(global_label "PIN_7"
 		(shape output)
 		(at 46.99 176.53 180)
 		(fields_autoplaced yes)
@@ -9549,7 +9549,7 @@
 		)
 		(uuid "230dac15-d45a-46db-a8a4-0397c00ec282")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.4129 176.53 0)
+			(at 38.6224 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9729,7 +9729,7 @@
 			)
 		)
 	)
-	(global_label "PIN_22"
+	(global_label "PIN_21"
 		(shape input)
 		(at 77.47 111.76 0)
 		(fields_autoplaced yes)
@@ -9777,7 +9777,7 @@
 			)
 		)
 	)
-	(global_label "PIN_18"
+	(global_label "PIN_15"
 		(shape input)
 		(at 36.83 45.72 180)
 		(fields_autoplaced yes)
@@ -10185,7 +10185,7 @@
 			)
 		)
 	)
-	(global_label "PIN_21"
+	(global_label "PIN_18"
 		(shape output)
 		(at 115.57 176.53 180)
 		(fields_autoplaced yes)
@@ -10197,7 +10197,7 @@
 		)
 		(uuid "86f18569-f1bd-4e0b-90e2-cc84b28d7c13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.2024 176.53 0)
+			(at 105.9929 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10329,7 +10329,7 @@
 			)
 		)
 	)
-	(global_label "PIN_21"
+	(global_label "PIN_18"
 		(shape input)
 		(at 36.83 43.18 180)
 		(fields_autoplaced yes)
@@ -10449,7 +10449,7 @@
 			)
 		)
 	)
-	(global_label "PIN_11"
+	(global_label "PIN_7"
 		(shape input)
 		(at 36.83 96.52 180)
 		(fields_autoplaced yes)
@@ -10461,7 +10461,7 @@
 		)
 		(uuid "c141e518-5b2a-420d-8089-badfcba90032")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.2529 96.52 0)
+			(at 28.4624 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10569,7 +10569,7 @@
 			)
 		)
 	)
-	(global_label "PIN_15"
+	(global_label "PIN_11"
 		(shape output)
 		(at 69.85 176.53 180)
 		(fields_autoplaced yes)
@@ -10581,7 +10581,7 @@
 		)
 		(uuid "db49bb21-7daa-4b8b-85e7-13b9b9df5f10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.4824 176.53 0)
+			(at 60.2729 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10713,7 +10713,7 @@
 			)
 		)
 	)
-	(global_label "PIN_18"
+	(global_label "PIN_15"
 		(shape output)
 		(at 92.71 176.53 180)
 		(fields_autoplaced yes)
@@ -10725,7 +10725,7 @@
 		)
 		(uuid "ef5622f1-aeac-4b49-b8d6-77427141d6a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.3424 176.53 0)
+			(at 83.1329 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10761,7 +10761,7 @@
 			)
 		)
 	)
-	(global_label "PIN_22"
+	(global_label "PIN_21"
 		(shape output)
 		(at 138.43 176.53 180)
 		(fields_autoplaced yes)
@@ -10773,7 +10773,7 @@
 		)
 		(uuid "f00bd185-743b-44d8-aaf0-37d2f7865cee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.0624 176.53 0)
+			(at 128.8529 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10857,7 +10857,7 @@
 			)
 		)
 	)
-	(global_label "PIN_15"
+	(global_label "PIN_11"
 		(shape input)
 		(at 36.83 109.22 180)
 		(fields_autoplaced yes)
