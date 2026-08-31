@@ -16,8 +16,8 @@ The case CAD files and PCB design files are published here. The keyboard firmwar
 
 - [`case/`](case/README.md) — STEP files for the cases and switch plates
 - [`pcb/`](pcb/) — KiCad sources for the five PCBs
-- [Firmware](https://github.com/hringdrifi/zmk-keyboard-bifrost) — ZMK configuration and firmware source
 - [`docs/manufacturing.md`](docs/manufacturing.md) — manufacturing reference ([日本語](docs/manufacturing.ja.md))
+- [Firmware](https://github.com/hringdrifi/zmk-keyboard-bifrost) — ZMK configuration and firmware source
 
 ## License
 
