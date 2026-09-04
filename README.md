@@ -10,14 +10,14 @@ It is a wireless keyboard design based on the MDBT50Q module, which uses the Nor
 
 This keyboard is currently under active design. It is not yet a validated or production-ready design.
 
-The case CAD files and PCB design files are published here. The keyboard firmware is maintained in the [zmk-keyboard-bifrost repository](https://github.com/hringdrifi/zmk-keyboard-bifrost).
+The case CAD files and PCB design files are published here. The keyboard firmware is maintained in the [zmk-config-bifrost repository](https://github.com/hringdrifi/zmk-config-bifrost).
 
 ## Available files
 
 - [`case/`](case/README.md) — STEP files for the cases and switch plates
 - [`pcb/`](pcb/) — KiCad sources for the five PCBs
 - [`docs/manufacturing.md`](docs/manufacturing.md) — manufacturing reference ([日本語](docs/manufacturing.ja.md))
-- [Firmware](https://github.com/hringdrifi/zmk-keyboard-bifrost) — ZMK configuration and firmware source
+- [Firmware](https://github.com/hringdrifi/zmk-config-bifrost) — ZMK configuration and firmware source
 
 ## License
 
