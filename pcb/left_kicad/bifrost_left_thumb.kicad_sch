@@ -2274,7 +2274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Smidr:MountingHole_TH-1.6-M2"
+		(property "Footprint" "Smidr:SMD-1_BD4.4-D2.8"
 			(at 76.2 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -2307,7 +2307,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C2928170"
+		(property "JLCPCB Part #" "C2928179"
 			(at 76.2 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -3073,7 +3073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Smidr:MountingHole_TH-1.6-M2"
+		(property "Footprint" "Smidr:SMD-1_BD4.4-D2.8"
 			(at 76.2 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -3106,7 +3106,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C2928170"
+		(property "JLCPCB Part #" "C2928179"
 			(at 76.2 157.48 0)
 			(hide yes)
 			(show_name no)
