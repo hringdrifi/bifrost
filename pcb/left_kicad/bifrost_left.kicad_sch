@@ -2140,172 +2140,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS_Small"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_TVS_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.016) (xy -1.27 -1.016) (xy 1.27 1.016) (xy 1.27 -1.016) (xy -1.27 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0 1.016) (xy 0 -1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Fuse_Small"
 			(pin_numbers
 				(hide yes)
@@ -7508,157 +7342,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:Earth"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Earth"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"Earth\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global ground gnd"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Earth_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Earth_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -8070,12 +7753,6 @@
 		(uuid "6404a978-2a0b-45a7-96a6-d3568271dc89")
 	)
 	(junction
-		(at 147.32 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a9c7d9c-f26a-46a4-9e28-9c946dc37829")
-	)
-	(junction
 		(at 162.56 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8086,12 +7763,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6db93d5e-ebe4-4598-9ce1-41e8185f425a")
-	)
-	(junction
-		(at 152.4 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71f36559-e4fd-4452-b241-7d876ddfb191")
 	)
 	(junction
 		(at 147.32 110.49)
@@ -8110,18 +7781,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2d67032-d3aa-43bd-ac9d-2f4b2a91ba46")
-	)
-	(junction
-		(at 147.32 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab21dfad-5424-4466-be30-03df64652ac1")
-	)
-	(junction
-		(at 142.24 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0fecb0c-5c93-4c32-8356-b1e10a621a9a")
 	)
 	(junction
 		(at 142.24 128.27)
@@ -8158,12 +7817,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6e4a2e3-407e-4670-9666-782705928b23")
-	)
-	(junction
-		(at 134.62 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef744a9e-c1f5-460d-b322-2e1158cdb3d1")
 	)
 	(junction
 		(at 245.11 107.95)
@@ -8371,16 +8024,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 152.4 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e9defe-1f80-4de7-b5f9-6a5f4c6b54e5")
-	)
-	(wire
-		(pts
 			(xy 86.36 43.18) (xy 86.36 45.72)
 		)
 		(stroke
@@ -8428,16 +8071,6 @@
 			(type default)
 		)
 		(uuid "282ab645-9f65-413e-bdb4-ce366d3b8843")
-	)
-	(wire
-		(pts
-			(xy 134.62 68.58) (xy 142.24 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a3531c8-35a8-4825-b3fb-73d89916cdc3")
 	)
 	(wire
 		(pts
@@ -8841,26 +8474,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.66) (xy 147.32 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "889fb879-759f-4209-8ffd-44f8f46df697")
-	)
-	(wire
-		(pts
-			(xy 142.24 68.58) (xy 147.32 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fc24d06-9ac6-4760-a5bd-fcd890d1868d")
-	)
-	(wire
-		(pts
 			(xy 54.61 21.59) (xy 54.61 30.48)
 		)
 		(stroke
@@ -9078,16 +8691,6 @@
 			(type dash)
 		)
 		(uuid "e051d069-e56c-4da2-a7e4-e21264df2359")
-	)
-	(wire
-		(pts
-			(xy 147.32 68.58) (xy 152.4 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2285e84-25d2-4160-bf81-acb7738ad3b6")
 	)
 	(wire
 		(pts
@@ -10984,7 +10587,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "054c0c72-f782-4340-9d29-d3a8030feb8d")
-		(property "Reference" "R6"
+		(property "Reference" "R2"
 			(at 160.02 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11057,7 +10660,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R6")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11074,7 +10677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "065b96f6-1eb3-44b6-999a-dda06d61d4b5")
-		(property "Reference" "R2"
+		(property "Reference" "R7"
 			(at 34.29 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11147,7 +10750,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11338,7 +10941,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 147.32 71.12 0)
+		(at 134.62 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11347,8 +10950,19 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07f2d806-c8bf-42d7-87c6-cee6c407fc7e")
-		(property "Reference" "L2"
-			(at 147.32 71.12 0)
+		(property "Reference" "L3"
+			(at 135.89 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BLM15PX121SN1D"
+			(at 133.35 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11358,18 +10972,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLM15PX121SN1D"
-			(at 142.24 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 147.32 71.12 0)
+		(property "Footprint" ""
+			(at 134.62 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11380,7 +10984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 71.12 0)
+			(at 134.62 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11391,18 +10995,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 147.32 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C88970"
-			(at 147.32 71.12 0)
+			(at 134.62 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11421,7 +11014,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -11439,7 +11032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a8a8725-7f83-4e32-ad1f-4540fa5b3ca1")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR028"
 			(at 149.86 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11499,7 +11092,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR033")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11630,7 +11223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cc075bc-6234-4acc-9774-ba8a8bd65e11")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR09"
 			(at 165.1 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11689,7 +11282,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR039")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -11707,7 +11300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d28f6c2-e11b-4eba-b150-5626f843669f")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR019"
 			(at 259.08 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11767,85 +11360,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 152.4 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10a14c92-b9e6-4f6d-ade1-5785e6e4ad3a")
-		(property "Reference" "#PWR037"
-			(at 152.4 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "79e6f9b3-58c2-423c-bb8a-b0d5962c57e6")
-		)
-		(instances
-			(project "bifrost_left"
-				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR037")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11863,7 +11378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13414f82-11a2-48a2-8bb4-41a8bd648db5")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11923,7 +11438,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11940,7 +11455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1371e219-a47b-4b10-9514-ef0f6fce9f91")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR016"
 			(at 97.79 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11999,7 +11514,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR020")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12017,7 +11532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "140b1b88-572c-4235-a599-e90800670384")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR02"
 			(at 54.61 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -12077,7 +11592,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR07")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -12095,7 +11610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17cabf16-4d71-4a63-a8f2-28fa6959ce33")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR020"
 			(at 147.32 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12155,7 +11670,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR032")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12173,7 +11688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a8254b3-456b-47b2-a06f-c850d28c67a8")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR01"
 			(at 49.53 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -12233,7 +11748,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -12342,7 +11857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "264d99e3-fee4-42e4-8796-37a4a78c3076")
-		(property "Reference" "R3"
+		(property "Reference" "R9"
 			(at 129.54 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12415,7 +11930,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12433,7 +11948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2689f807-9fbe-470e-8119-b1ba8e636e6d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR021"
 			(at 259.08 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12494,7 +12009,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR048")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12512,7 +12027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "269dd26a-b980-410d-b215-e9b0ba6cc6f2")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 259.08 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12591,7 +12106,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12705,7 +12220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b481913-37c6-4c58-9785-c8e04015330d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR06"
 			(at 74.93 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12765,7 +12280,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR015")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12782,7 +12297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ee6dbe8-2b18-447b-8404-e29e2f3bd6a0")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 160.02 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12855,7 +12370,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12966,7 +12481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "370e6eae-5845-4d8c-a52d-105a95e9cfbd")
-		(property "Reference" "L3"
+		(property "Reference" "L2"
 			(at 167.64 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13039,7 +12554,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "L3")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -13056,7 +12571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "399e8490-79a8-4058-b20e-f666368de270")
-		(property "Reference" "R11"
+		(property "Reference" "R4"
 			(at 251.46 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13129,7 +12644,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R11")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13147,7 +12662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ff580f-32a4-4984-83f7-a93b1888ed6b")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 149.4633 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13234,7 +12749,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13252,7 +12767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44739509-4a80-f46a-6967-b7c499291261")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR047"
 			(at 38.1 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -13311,7 +12826,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR04")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13418,7 +12933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a4bbfad-676f-4ced-b037-c5fb1c4f3518")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR012"
 			(at 196.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13478,7 +12993,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR044")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13496,7 +13011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b73a00e-7262-2b5d-b248-171f6dd6b2ba")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR029"
 			(at 38.1 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -13555,7 +13070,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR01")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13573,7 +13088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d73a334-2264-634d-a60e-c6cbfcd4636e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR035"
 			(at 38.1 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -13632,7 +13147,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR02")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13650,7 +13165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e73a4c7-5a68-cdb7-6a57-32db04f7977e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR041"
 			(at 38.1 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -13709,7 +13224,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR03")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13727,7 +13242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ef770a4-7d7f-4826-b919-bd44ce6a8ff2")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR022"
 			(at 57.15 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -13787,7 +13302,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR08")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13805,7 +13320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55b60a33-5e98-4b93-ad75-7b71faf5703c")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR018"
 			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13865,7 +13380,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR040")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13883,7 +13398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c0d174-27a8-4e10-aed1-18d08af43630")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR03"
 			(at 59.69 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -13943,7 +13458,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR09")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13961,7 +13476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "649302b6-7142-4d87-bad1-db9ecfa63402")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR010"
 			(at 266.7 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -14021,7 +13536,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR049")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14038,7 +13553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68cb4938-5000-39d5-a0a5-ff37a9d85a92")
-		(property "Reference" "SW12"
+		(property "Reference" "SW21"
 			(at 74.93 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14111,7 +13626,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW12")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -14129,7 +13644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "694f0597-f6e0-4de1-aebd-d37166460339")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 49.53 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14189,86 +13704,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 134.62 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "695d67ee-a749-4c47-9fde-33a10027739a")
-		(property "Reference" "#PWR029"
-			(at 134.62 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Earth"
-			(at 134.62 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 134.62 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0360ed3-1265-415a-abe3-46d11f543e2c")
-		)
-		(instances
-			(project "bifrost_left"
-				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR029")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14285,7 +13721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69cb4acb-d404-1892-f32b-468c70fbe329")
-		(property "Reference" "SW8"
+		(property "Reference" "SW20"
 			(at 52.07 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14358,7 +13794,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW8")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -14376,7 +13812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ef85808-8d4b-4c3b-bb6a-8af44dd7e492")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR017"
 			(at 147.32 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -14436,7 +13872,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR031")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14454,7 +13890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f503a84-8106-4b19-9b03-9d3c49b3663d")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 153.67 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14535,7 +13971,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "Q1")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -14642,7 +14078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78ffe808-febd-f14a-bc7d-43165d28e6b3")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR036"
 			(at 59.69 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -14701,7 +14137,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR011")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -14719,7 +14155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79ffe99b-2bae-f1ce-2f8e-cf49500b6aec")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR037"
 			(at 82.55 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -14778,7 +14214,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR017")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14796,7 +14232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7affeb2e-bebe-44de-eb40-8000727625a5")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR038"
 			(at 105.41 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -14855,7 +14291,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR023")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -14873,7 +14309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bffecc1-32c3-d7c3-cd5f-04a20b91a107")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR039"
 			(at 128.27 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -14932,7 +14368,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR026")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14950,7 +14386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c022b58-faf1-6f06-300a-3b9cb0789e39")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR045"
 			(at 128.27 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -15009,7 +14445,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR027")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -15027,7 +14463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cffee54-eec7-33a5-8977-a71cd0f42b97")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR040"
 			(at 151.13 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -15086,7 +14522,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR035")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -15104,7 +14540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d022ceb-fef5-4e2d-5144-7f3c769bda99")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR044"
 			(at 105.41 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -15163,7 +14599,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR024")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -15181,7 +14617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e022e7e-baf9-78bd-4590-547a3706f1df")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR043"
 			(at 82.55 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -15240,7 +14676,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR018")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -15257,7 +14693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7eb68d6d-58eb-4338-8df6-4020cba439bb")
-		(property "Reference" "R10"
+		(property "Reference" "R3"
 			(at 251.46 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15330,7 +14766,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R10")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15348,7 +14784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f023011-2ee2-5284-e1bd-d3d096a17675")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR042"
 			(at 59.69 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -15407,7 +14843,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR012")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -15425,7 +14861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f0efc04-4a8d-69fb-5670-712cdc64d489")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR048"
 			(at 59.69 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -15484,7 +14920,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR013")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -15502,7 +14938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "800efd97-c28b-5e7d-812d-582871c7fd8d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR049"
 			(at 82.55 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -15561,7 +14997,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR019")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -15580,7 +15016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81c4dde1-c2b2-4b08-83c5-6a67217c357a")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR025"
 			(at 165.1 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -15640,7 +15076,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR041")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15658,7 +15094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8302365d-deec-d313-70f3-721a6c2dd7bf")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR046"
 			(at 151.13 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -15717,7 +15153,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR036")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -15735,7 +15171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8376269f-8379-4f9f-9c1b-16c3e1d1cf28")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 247.65 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15821,7 +15257,85 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R9")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83f8c89f-f19f-4bff-93c8-57a73f529838")
+		(property "Reference" "#PWR013"
+			(at 142.24 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70c3c4b3-cbcd-4781-8c76-ab9c53b63098")
+		)
+		(instances
+			(project "bifrost_left"
+				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15838,7 +15352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c5ecef5-9dc1-4819-87fe-16e179b3fecf")
-		(property "Reference" "R4"
+		(property "Reference" "R13"
 			(at 137.16 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15911,7 +15425,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R4")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -16019,7 +15533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ff6776d-4418-4eb1-a49b-6728d8b8a0bd")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR08"
 			(at 187.96 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -16079,7 +15593,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR043")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -16197,7 +15711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9633cbdb-09b3-4e87-9599-3d53782492ae")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR026"
 			(at 247.65 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -16258,7 +15772,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR046")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -16276,7 +15790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97607314-5b85-4c39-b360-c1e116bc71dc")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR011"
 			(at 105.41 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16337,7 +15851,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR021")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16446,7 +15960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9abb57bb-07c4-40ab-b2c7-54aeebbb9729")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 34.29 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16519,7 +16033,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16715,8 +16229,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Small")
-		(at 142.24 71.12 90)
+		(lib_id "power:GND")
+		(at 134.62 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16724,31 +16238,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a0d0c050-d2fc-4321-881b-4b1d60c37288")
-		(property "Reference" "D1"
-			(at 140.97 69.85 90)
+		(fields_autoplaced yes)
+		(uuid "a0030d0c-e60c-4c0a-a190-4179f9e263d4")
+		(property "Reference" "#PWR015"
+			(at 134.62 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BSD3C051V"
-			(at 140.97 72.39 90)
+		(property "Value" "GND"
+			(at 134.62 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 142.24 71.12 0)
+		(property "Footprint" ""
+			(at 134.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16759,7 +16273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 71.12 0)
+			(at 134.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16769,8 +16283,8 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 142.24 71.12 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16779,28 +16293,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "JLCPCB Part #" "C151996"
-			(at 142.24 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c4417262-494d-44dd-9cb6-a64c25a4c273")
 		)
 		(pin "1"
-			(uuid "ebf1a9b1-2063-4bb8-b64a-b59731978cd2")
+			(uuid "e5e3aab0-a495-4a0b-bd7e-b476672d583d")
 		)
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "D1")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -16818,7 +16318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1feb07e-7d43-4f81-be0d-b00dfdf39dc4")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR05"
 			(at 69.85 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -16878,7 +16378,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR014")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -16896,7 +16396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a438e18a-8c1c-4c87-9be4-dc8ab03c03f5")
-		(property "Reference" "R13"
+		(property "Reference" "R8"
 			(at 257.175 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16982,7 +16482,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R13")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -17090,7 +16590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a93b7d3d-fe6a-44c0-b78a-e111e7452e21")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR024"
 			(at 172.72 127 0)
 			(hide yes)
 			(show_name no)
@@ -17151,7 +16651,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR042")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -17168,7 +16668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9a83672-5aca-3b7b-f2d8-b02ce4ca1589")
-		(property "Reference" "SW3"
+		(property "Reference" "SW13"
 			(at 30.48 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17241,7 +16741,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW3")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -17258,7 +16758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aaa83805-92b4-6aa3-bc5e-25c8f245806d")
-		(property "Reference" "SW2"
+		(property "Reference" "SW7"
 			(at 30.48 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17331,7 +16831,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW2")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -17348,7 +16848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aba83998-8ab1-c308-34d5-d41f8e3871ba")
-		(property "Reference" "SW4"
+		(property "Reference" "SW19"
 			(at 30.48 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17421,7 +16921,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW4")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -17439,7 +16939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abbf24f9-6cb2-421e-8005-034b3789dc57")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 167.64 104.1462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17514,7 +17014,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -17533,7 +17033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad324a30-264d-4563-86c9-ec284589cd2b")
-		(property "Reference" "Q3"
+		(property "Reference" "Q1"
 			(at 269.875 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17614,7 +17114,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "Q3")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -17632,7 +17132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad499b93-75fa-49db-9377-d4fb187dc4e3")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR07"
 			(at 157.48 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -17692,7 +17192,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR038")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -17709,7 +17209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5f29d6c-73d8-4f25-a440-e379ff5c5450")
-		(property "Reference" "R12"
+		(property "Reference" "R5"
 			(at 251.46 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17782,7 +17282,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R12")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -17800,7 +17300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b65bbbf2-b81e-4274-ba2d-01f8e7837068")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 59.2933 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18055,7 +17555,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -18154,99 +17654,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 152.4 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb183826-d05e-4992-bcb6-a3112c2bb7db")
-		(property "Reference" "C8"
-			(at 154.94 69.8562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 154.94 72.3962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 152.4 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 152.4 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C1525"
-			(at 152.4 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9ef92a1c-7276-4878-8e4d-0d0b0f617771")
-		)
-		(pin "1"
-			(uuid "3385d1cb-99c9-40c0-b3ec-72ebf6a5249b")
-		)
-		(instances
-			(project "bifrost_left"
-				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:SRV05-4")
 		(at 196.85 59.69 0)
 		(unit 1)
@@ -18258,7 +17665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcdec27d-f633-4e12-af34-5d50af8093e6")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 199.9681 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18345,7 +17752,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -18455,7 +17862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf0527cd-9f2d-40a6-a3fc-c067860ca2d7")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR014"
 			(at 196.85 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -18515,7 +17922,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR045")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -18532,7 +17939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d006f29b-ec6b-4b0b-85e6-8f40e5257d72")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 160.02 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18605,7 +18012,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -18622,7 +18029,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1bf2290-5ca7-f31b-c36a-b7470fe012e2")
-		(property "Reference" "SW5"
+		(property "Reference" "SW2"
 			(at 52.07 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18695,7 +18102,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW5")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -18712,7 +18119,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2bf2423-14ab-ada7-c96d-3e3d44e39b98")
-		(property "Reference" "SW9"
+		(property "Reference" "SW3"
 			(at 74.93 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18785,7 +18192,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW9")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -18802,7 +18209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3bf25b6-1ca8-3aae-c68c-5333b80ef696")
-		(property "Reference" "SW13"
+		(property "Reference" "SW4"
 			(at 97.79 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18875,7 +18282,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW13")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -18892,7 +18299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4bf2749-44ad-fd56-e932-c7eb5be9624e")
-		(property "Reference" "SW16"
+		(property "Reference" "SW5"
 			(at 120.65 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18965,7 +18372,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW16")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -18982,7 +18389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5bf28dc-4c98-b57b-5b27-f749790c52ec")
-		(property "Reference" "SW19"
+		(property "Reference" "SW6"
 			(at 143.51 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19055,7 +18462,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW19")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -19072,7 +18479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9c3ac56-356c-3a99-32f7-1209c02eb7ac")
-		(property "Reference" "SW21"
+		(property "Reference" "SW18"
 			(at 143.51 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19145,7 +18552,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW21")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -19253,7 +18660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbc3af7c-e56e-66aa-fc2c-6bc519acce60")
-		(property "Reference" "SW15"
+		(property "Reference" "SW16"
 			(at 97.79 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19326,7 +18733,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW15")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -19343,7 +18750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcc3b10f-1d57-5953-61ac-e53d89af4098")
-		(property "Reference" "SW18"
+		(property "Reference" "SW17"
 			(at 120.65 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19416,7 +18823,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW18")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -19433,7 +18840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddc3b2a2-155b-afc3-b571-37c5dffa9260")
-		(property "Reference" "SW7"
+		(property "Reference" "SW14"
 			(at 52.07 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19506,7 +18913,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW7")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -19523,7 +18930,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dec3b435-cd5f-82e8-f6a4-0b0bddf5aeae")
-		(property "Reference" "SW11"
+		(property "Reference" "SW15"
 			(at 74.93 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19596,7 +19003,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW11")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -19614,7 +19021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1024321-cd04-4b97-931f-9bc2dd06e9c9")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR023"
 			(at 142.24 127 0)
 			(hide yes)
 			(show_name no)
@@ -19674,7 +19081,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR030")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -19691,7 +19098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2c5f918-52c0-d1d1-82c3-4bce56b8ee6b")
-		(property "Reference" "SW10"
+		(property "Reference" "SW9"
 			(at 74.93 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19764,7 +19171,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW10")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -19781,7 +19188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3c5faab-56c4-b0f7-14a4-93c474db3661")
-		(property "Reference" "SW6"
+		(property "Reference" "SW8"
 			(at 52.07 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19854,7 +19261,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW6")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -19949,7 +19356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4c5fc3e-12c8-dba2-1490-17801e46b225")
-		(property "Reference" "SW17"
+		(property "Reference" "SW11"
 			(at 120.65 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20022,7 +19429,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW17")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -20039,7 +19446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5c5fdd1-86c6-d3dc-8d2d-60fb5ce1c55e")
-		(property "Reference" "SW14"
+		(property "Reference" "SW10"
 			(at 97.79 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20112,7 +19519,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW14")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -20129,7 +19536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7c600f7-4521-1f62-7540-1d4530a7b8e0")
-		(property "Reference" "SW20"
+		(property "Reference" "SW12"
 			(at 143.51 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20202,7 +19609,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "SW20")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -20220,7 +19627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea0755b0-f0d5-d189-3ae5-749b6d80d13e")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR031"
 			(at 82.55 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -20279,7 +19686,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR016")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -20297,7 +19704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb075743-74d9-9711-1a77-5962ff83fcc7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR030"
 			(at 59.69 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -20356,7 +19763,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR010")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -20374,7 +19781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec0758d6-30c4-fa6c-ae2c-8ccf79ae296a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR033"
 			(at 128.27 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -20433,7 +19840,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR025")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -20451,7 +19858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed075a69-24c8-c624-ecc3-28a3e7098d06")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR032"
 			(at 105.41 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -20510,7 +19917,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "#PWR022")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -20605,7 +20012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef418a7d-2d5e-4175-8e53-a548aaad6cd6")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 241.3 102.235 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20689,7 +20096,7 @@
 		(instances
 			(project "bifrost_left"
 				(path "/e7e89169-ab7b-68cd-1b0e-3f8776099a22"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
